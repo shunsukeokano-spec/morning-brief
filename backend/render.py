@@ -176,6 +176,31 @@ def render_html(date_str: str, briefs: list[dict]) -> str:
   .route-personal {{ background: #1a2a1a; color: #A8FF78; border: 1px solid #2a4a2a; }}
   .route-world {{ background: #1a1a2a; color: #7EB8FF; border: 1px solid #2a2a4a; }}
 
+  .note-section {{ padding: 28px 24px; border-top: 1px solid #1A1A1A; }}
+  .note-header {{ font-family: monospace; font-size: 10px; letter-spacing: 0.25em; color: #555; text-transform: uppercase; margin-bottom: 12px; }}
+  .note-current {{ font-size: 13px; color: #666; font-style: italic; margin-bottom: 12px; padding: 10px 14px; background: #0A0A0A; border-left: 2px solid #333; display: none; }}
+  .note-textarea {{ width: 100%; background: #111; border: 1px solid #2a2a2a; color: #E8E8E0; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; padding: 12px; resize: vertical; min-height: 60px; outline: none; border-radius: 2px; }}
+  .note-textarea:focus {{ border-color: #444; }}
+  .note-textarea::placeholder {{ color: #444; }}
+  .note-row {{ display: flex; align-items: center; gap: 12px; margin-top: 10px; flex-wrap: wrap; }}
+  .note-save {{ background: #E8E8E0; color: #0D0D0D; border: none; padding: 8px 20px; font-family: monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 700; cursor: pointer; }}
+  .note-save:hover {{ background: #fff; }}
+  .note-save:disabled {{ opacity: 0.4; cursor: not-allowed; }}
+  .note-setup {{ font-size: 11px; color: #555; font-family: monospace; cursor: pointer; text-decoration: underline; }}
+  .note-status {{ font-size: 12px; font-family: monospace; }}
+  .note-status.ok {{ color: #A8FF78; }}
+  .note-status.err {{ color: #FF6B6B; }}
+  .token-modal {{ display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; align-items: center; justify-content: center; }}
+  .token-modal.open {{ display: flex; }}
+  .token-box {{ background: #111; border: 1px solid #333; padding: 28px; max-width: 480px; width: 90%; }}
+  .token-box h3 {{ font-family: monospace; font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: #888; margin-bottom: 16px; }}
+  .token-box p {{ font-size: 13px; color: #777; line-height: 1.6; margin-bottom: 12px; }}
+  .token-box a {{ color: #7EB8FF; }}
+  .token-input {{ width: 100%; background: #0A0A0A; border: 1px solid #333; color: #E8E8E0; font-family: monospace; font-size: 13px; padding: 10px; outline: none; margin-bottom: 12px; }}
+  .token-input:focus {{ border-color: #555; }}
+  .token-btn {{ background: #E8E8E0; color: #0D0D0D; border: none; padding: 8px 20px; font-family: monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; cursor: pointer; margin-right: 8px; }}
+  .token-cancel {{ background: transparent; color: #555; border: 1px solid #333; padding: 8px 16px; font-family: monospace; font-size: 11px; cursor: pointer; }}
+
   .footer {{ padding: 16px 24px; border-top: 1px solid #1A1A1A; font-size: 11px; color: #333; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }}
 
   @media (max-width: 600px) {{
@@ -213,10 +238,141 @@ def render_html(date_str: str, briefs: list[dict]) -> str:
 {panels_html}
 </div>
 
+<div class="note-section">
+  <div class="note-header">Tomorrow's Brief — Leave a Note</div>
+  <div class="note-current" id="note-current"></div>
+  <textarea class="note-textarea" id="note-input" placeholder="気になったこと・質問を一行書く。明日のブリーフに反映される。"></textarea>
+  <div class="note-row">
+    <button class="note-save" id="note-save" onclick="saveNote()">Save to Tomorrow's Brief</button>
+    <span class="note-status" id="note-status"></span>
+    <span class="note-setup" onclick="openTokenModal()" style="margin-left:auto" id="token-hint">⚙ Setup</span>
+  </div>
+</div>
+
 <div class="footer">
   <span>State media sources tagged as reference only — interpret with caution.</span>
   <span>Generated {generated_at}</span>
 </div>
+
+<!-- Token setup modal -->
+<div class="token-modal" id="token-modal">
+  <div class="token-box">
+    <h3>One-time Setup</h3>
+    <p>A GitHub token is needed to save notes. Create a <strong>fine-grained personal access token</strong> at:</p>
+    <p><a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a></p>
+    <p style="color:#555;font-size:12px">Settings: Repository access → Only <code>morning-brief</code> → Contents: Read and write<br>The token is stored only in this browser (localStorage). Never sent to any server.</p>
+    <input class="token-input" id="token-input" type="password" placeholder="github_pat_..." />
+    <div>
+      <button class="token-btn" onclick="saveToken()">Save Token</button>
+      <button class="token-cancel" onclick="closeTokenModal()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const REPO = 'shunsukeokano-spec/morning-brief';
+const NOTE_PATH = 'daily_note.md';
+const NOTE_TEMPLATE_RE = /^<!--.*-->$/mg;
+let _sha = null;
+
+async function loadCurrentNote() {{
+  try {{
+    const res = await fetch(`https://api.github.com/repos/${{REPO}}/contents/${{NOTE_PATH}}`);
+    const data = await res.json();
+    _sha = data.sha;
+    const raw = decodeURIComponent(escape(atob(data.content.replace(/\n/g, ''))));
+    const lines = raw.split('\n').filter(l => !l.trim().startsWith('<!--')).join('\n').trim();
+    if (lines) {{
+      const el = document.getElementById('note-current');
+      el.textContent = '現在のメモ: ' + lines;
+      el.style.display = 'block';
+    }}
+  }} catch(e) {{ /* no-op */ }}
+}}
+
+async function saveNote() {{
+  const token = localStorage.getItem('gh_token');
+  if (!token) {{ openTokenModal(); return; }}
+
+  const note = document.getElementById('note-input').value.trim();
+  if (!note) {{ setStatus('err', '何か書いてください'); return; }}
+
+  const btn = document.getElementById('note-save');
+  btn.disabled = true;
+  setStatus('', 'Saving...');
+
+  try {{
+    const template = `<!-- 今日のブリーフを読んで気になったこと・質問を1行ここに書く。翌朝のブリーフに反映される。 -->\n<!-- 書いたらSave。使用後は自動でdata/notes/に保存されてリセットされる。 -->\n\n${{note}}\n`;
+    const body = {{
+      message: `Daily note ${{new Date().toISOString().split('T')[0]}}`,
+      content: btoa(unescape(encodeURIComponent(template))),
+      sha: _sha
+    }};
+    const res = await fetch(`https://api.github.com/repos/${{REPO}}/contents/${{NOTE_PATH}}`, {{
+      method: 'PUT',
+      headers: {{ 'Authorization': `token ${{token}}`, 'Content-Type': 'application/json' }},
+      body: JSON.stringify(body)
+    }});
+    if (res.ok) {{
+      const data = await res.json();
+      _sha = data.content.sha;
+      setStatus('ok', '✓ Saved — will appear in tomorrow\'s brief');
+      document.getElementById('note-input').value = '';
+      const el = document.getElementById('note-current');
+      el.textContent = '現在のメモ: ' + note;
+      el.style.display = 'block';
+    }} else if (res.status === 401) {{
+      localStorage.removeItem('gh_token');
+      setStatus('err', 'Token invalid — please set up again');
+      openTokenModal();
+    }} else {{
+      setStatus('err', 'Save failed (' + res.status + ')');
+    }}
+  }} catch(e) {{
+    setStatus('err', 'Error: ' + e.message);
+  }} finally {{
+    btn.disabled = false;
+  }}
+}}
+
+function setStatus(type, msg) {{
+  const el = document.getElementById('note-status');
+  el.textContent = msg;
+  el.className = 'note-status' + (type ? ' ' + type : '');
+}}
+
+function openTokenModal() {{
+  document.getElementById('token-modal').classList.add('open');
+  document.getElementById('token-input').focus();
+}}
+
+function closeTokenModal() {{
+  document.getElementById('token-modal').classList.remove('open');
+}}
+
+function saveToken() {{
+  const t = document.getElementById('token-input').value.trim();
+  if (!t) return;
+  localStorage.setItem('gh_token', t);
+  closeTokenModal();
+  const hint = document.getElementById('token-hint');
+  hint.textContent = '⚙ Token saved';
+  setStatus('ok', 'Token saved — try saving your note now');
+}}
+
+// Close modal on backdrop click
+document.getElementById('token-modal').addEventListener('click', function(e) {{
+  if (e.target === this) closeTokenModal();
+}});
+
+// Check token on load
+window.addEventListener('load', function() {{
+  loadCurrentNote();
+  if (localStorage.getItem('gh_token')) {{
+    document.getElementById('token-hint').textContent = '⚙ Token set';
+  }}
+}});
+</script>
 
 </body>
 </html>"""
