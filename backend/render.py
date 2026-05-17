@@ -280,8 +280,8 @@ async function loadCurrentNote() {{
     const res = await fetch(`https://api.github.com/repos/${{REPO}}/contents/${{NOTE_PATH}}`);
     const data = await res.json();
     _sha = data.sha;
-    const raw = decodeURIComponent(escape(atob(data.content.replace(/\n/g, ''))));
-    const lines = raw.split('\n').filter(l => !l.trim().startsWith('<!--')).join('\n').trim();
+    const raw = decodeURIComponent(escape(atob(data.content.replace(/\\n/g, ''))));
+    const lines = raw.split('\\n').filter(l => !l.trim().startsWith('<!--')).join('\\n').trim();
     if (lines) {{
       const el = document.getElementById('note-current');
       el.textContent = '現在のメモ: ' + lines;
@@ -302,7 +302,7 @@ async function saveNote() {{
   setStatus('', 'Saving...');
 
   try {{
-    const template = `<!-- 今日のブリーフを読んで気になったこと・質問を1行ここに書く。翌朝のブリーフに反映される。 -->\n<!-- 書いたらSave。使用後は自動でdata/notes/に保存されてリセットされる。 -->\n\n${{note}}\n`;
+    const template = `<!-- 今日のブリーフを読んで気になったこと・質問を1行ここに書く。翌朝のブリーフに反映される。 -->\\n<!-- 書いたらSave。使用後は自動でdata/notes/に保存されてリセットされる。 -->\\n\\n${{note}}\\n`;
     const body = {{
       message: `Daily note ${{new Date().toISOString().split('T')[0]}}`,
       content: btoa(unescape(encodeURIComponent(template))),
