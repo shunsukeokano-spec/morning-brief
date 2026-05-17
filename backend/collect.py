@@ -22,6 +22,7 @@ import prompts
 
 NOTE_PATH = Path(__file__).parent.parent / "daily_note.md"
 NOTES_DIR = Path(__file__).parent.parent / "data" / "notes"
+SUMMARIES_DIR = Path(__file__).parent.parent / "data" / "summaries"
 NOTE_TEMPLATE = (
     "<!-- 今日のブリーフを読んで気になったこと・質問を1行ここに書く。翌朝のブリーフに反映される。 -->\n"
     "<!-- 例: \"TSMCの半導体予測、$1.5T市場になる根拠は？\" -->\n"
@@ -44,6 +45,15 @@ def extract_json(text: str) -> dict:
     return json.loads(match.group(0))
 
 
+def read_latest_monthly_summary() -> str:
+    summaries = sorted(SUMMARIES_DIR.glob("????-??.md"), reverse=True)
+    if not summaries:
+        return ""
+    text = summaries[0].read_text(encoding="utf-8").strip()
+    log.info("Loaded monthly summary context: %s", summaries[0].name)
+    return text
+
+
 def read_user_note() -> str:
     if not NOTE_PATH.exists():
         return ""
@@ -61,14 +71,14 @@ def archive_note(note: str, date: str) -> None:
     log.info("Archived note to data/notes/%s.md", date)
 
 
-def collect_category(client: Anthropic, category_key: str, today: str, user_note: str = "") -> dict:
+def collect_category(client: Anthropic, category_key: str, today: str, user_note: str = "", monthly_summary: str = "") -> dict:
     log.info("Collecting category: %s", category_key)
     response = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=2000,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         system=prompts.system_prompt(category_key, today),
-        messages=[{"role": "user", "content": prompts.user_prompt(category_key, user_note)}],
+        messages=[{"role": "user", "content": prompts.user_prompt(category_key, user_note, monthly_summary)}],
     )
     text_blocks = [b.text for b in response.content if b.type == "text"]
     full_text = "\n".join(text_blocks)
@@ -102,6 +112,8 @@ def main() -> int:
     else:
         log.info("No user note today")
 
+    monthly_summary = read_latest_monthly_summary()
+
     targets = (
         list(prompts.CATEGORIES.keys()) if args.category == "all" else [args.category]
     )
@@ -109,7 +121,7 @@ def main() -> int:
     failures = []
     for cat in targets:
         try:
-            data = collect_category(client, cat, today_human, user_note)
+            data = collect_category(client, cat, today_human, user_note, monthly_summary)
             db.save_brief(today_iso, cat, data)
         except Exception as e:
             log.error("Failed %s: %s", cat, e)

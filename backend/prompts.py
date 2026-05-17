@@ -97,7 +97,7 @@ The `signal` field is especially important here - give Shun a clear, falsifiable
     return common
 
 
-def user_prompt(category_key: str, user_note: str = "") -> str:
+def user_prompt(category_key: str, user_note: str = "", monthly_summary: str = "") -> str:
     cat = CATEGORIES[category_key]
     base = (
         f"Search for the most important {cat['label']} news from the last 24 hours. "
@@ -105,9 +105,26 @@ def user_prompt(category_key: str, user_note: str = "") -> str:
         "Prioritize stories with global significance and forward-looking implications. "
         "Every story must include a working source_url."
     )
+    if monthly_summary:
+        # Extract only the "Brief Focus for Next Month" section to keep the prompt lean
+        section = ""
+        in_section = False
+        for line in monthly_summary.splitlines():
+            if "Brief Focus for Next Month" in line:
+                in_section = True
+            elif line.startswith("## ") and in_section:
+                break
+            elif in_section:
+                section += line + "\n"
+        focus = section.strip()
+        if focus:
+            base += (
+                f"\n\nLong-term focus (from last month's analysis): {focus}\n"
+                f"Incorporate these themes where relevant to {cat['label']}."
+            )
     if user_note:
         base += (
-            f"\n\nShun's note: {user_note}\n"
+            f"\n\nShun's note for today: {user_note}\n"
             f"If this relates to {cat['label']}, address it directly — find stories that answer "
             "the question or deepen the context. If unrelated, ignore it."
         )

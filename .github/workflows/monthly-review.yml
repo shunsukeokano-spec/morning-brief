@@ -1,0 +1,67 @@
+name: Monthly Review
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # 1st of every month at 09:00 JST
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: true
+        default: 'monthly'
+        type: choice
+        options:
+          - monthly
+          - annual
+          - both
+
+permissions:
+  contents: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r backend/requirements.txt
+
+      - name: Monthly summary
+        if: github.event_name == 'schedule' || inputs.mode == 'monthly' || inputs.mode == 'both'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python backend/analyze.py --monthly
+
+      - name: Annual analysis (January only on schedule, or manual)
+        if: |
+          (github.event_name == 'schedule' && startsWith(github.run_id, '1') ) ||
+          inputs.mode == 'annual' || inputs.mode == 'both'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          MONTH=$(date -u +%m)
+          if [ "$MONTH" = "01" ] || [ "${{ inputs.mode }}" = "annual" ] || [ "${{ inputs.mode }}" = "both" ]; then
+            python backend/analyze.py --annual
+          else
+            echo "Not January — skipping annual analysis"
+          fi
+
+      - name: Commit summaries
+        run: |
+          git config user.name "morning-brief-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/summaries/
+          if git diff --staged --quiet; then
+            echo "No new summaries to commit"
+            exit 0
+          fi
+          git commit -m "Monthly review $(date -u +%Y-%m)"
+          git push
