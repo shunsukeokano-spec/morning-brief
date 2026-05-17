@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Brief — Sunday, May 17, 2026</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0D0D0D; color: #E8E8E0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  a { color: inherit; text-decoration: none; }
+  a:hover { color: #fff; }
+
+  .header { padding: 32px 24px 20px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 12px; }
+  .header-label { font-family: monospace; font-size: 10px; letter-spacing: 0.3em; color: #444; text-transform: uppercase; margin-bottom: 8px; }
+  .header-date { font-family: Georgia, serif; font-size: 28px; font-weight: 700; color: #F0EFE6; letter-spacing: -0.02em; }
+  .archive-link { font-family: monospace; font-size: 11px; color: #555; letter-spacing: 0.1em; text-transform: uppercase; border: 1px solid #333; padding: 8px 14px; }
+  .archive-link:hover { color: #aaa; border-color: #555; }
+
+  .legend { padding: 10px 24px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 20px; flex-wrap: wrap; font-size: 11px; color: #555; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1px; background: #1A1A1A; padding: 1px; }
+
+  .panel { background: #111; border: 1px solid #222; border-top: 3px solid; padding: 24px; }
+  .panel-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+  .cat-icon { font-size: 20px; }
+  .cat-label { font-family: monospace; font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; }
+
+  .headline { font-family: Georgia, serif; font-size: 18px; font-weight: 700; color: #F0EFE6; margin-bottom: 10px; line-height: 1.3; }
+  .tldr { font-size: 13px; color: #AAA; line-height: 1.7; margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid #1E1E1E; }
+
+  .story { border-left: 2px solid; padding-left: 16px; margin-bottom: 20px; }
+  .story-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; font-size: 11px; }
+  .region { font-family: monospace; letter-spacing: 0.1em; text-transform: uppercase; }
+  .dot { color: #444; }
+  .source-name { color: #888; }
+  .signal { margin-left: auto; font-size: 13px; font-weight: 700; }
+  .ext-icon { font-size: 10px; color: #555; }
+
+  .story-title { font-family: Georgia, serif; font-size: 15px; font-weight: 600; color: #E8E8E0; display: block; margin-bottom: 6px; line-height: 1.4; }
+  .story-title:hover { color: #fff; }
+  .story-title-plain { font-family: Georgia, serif; font-size: 15px; font-weight: 600; color: #888; display: block; margin-bottom: 6px; line-height: 1.4; }
+  .summary { font-size: 13px; color: #999; line-height: 1.6; margin-bottom: 6px; }
+  .significance { font-size: 12px; color: #666; font-style: italic; line-height: 1.4; }
+
+  .signal-box { margin-top: 20px; padding: 14px; background: #0A0A0A; border: 1px solid #222; border-left: 2px solid; }
+  .signal-label { font-size: 10px; color: #555; font-family: monospace; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 6px; }
+  .signal-text { font-size: 13px; color: #CCC; line-height: 1.6; }
+
+  .bias-note { margin-top: 12px; font-size: 11px; color: #555; font-style: italic; }
+
+  .footer { padding: 16px 24px; border-top: 1px solid #1A1A1A; font-size: 11px; color: #333; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+  @media (max-width: 600px) {
+    .header { padding: 20px 16px 16px; }
+    .header-date { font-size: 20px; }
+    .grid { grid-template-columns: 1fr; }
+    .panel { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="header-label">Morning Brief</div>
+    <div class="header-date">Sunday, May 17, 2026</div>
+  </div>
+  <a class="archive-link" href="https://github.com/shunsukeokano-spec/morning-brief/tree/main/data/exports">Archive ↗</a>
+</div>
+
+<div class="legend">
+  <span><span style="color:#A8FF78;font-weight:700">↑</span> Bull</span>
+  <span><span style="color:#FF6B6B;font-weight:700">↓</span> Bear</span>
+  <span><span style="color:#888;font-weight:700">–</span> Neutral</span>
+  <span><span style="color:#FFD700;font-weight:700">◉</span> Watch</span>
+  <span style="margin-left:auto">Click story titles to open source</span>
+</div>
+
+<div class="grid">
+
+  <div class="panel" style="border-top-color:#00D4FF">
+    <div class="panel-header">
+      <span class="cat-icon" style="color:#00D4FF">⬡</span>
+      <span class="cat-label" style="color:#00D4FF">Technology</span>
+    </div>
+    <div class="headline">Tech's week of reckoning: TSMC rewrites the chip ceiling, Nvidia unlocks China, OpenAI restructures for IPO, and Google readies its biggest AI salvo yet</div>
+    <div class="tldr">TSMC raised its global semiconductor market forecast 50% to $1.5 trillion by 2030, driven by AI demand now expected to own 55% of the market. The U.S. cleared Nvidia H200 chip sales to 10 Chinese firms following Trump-Xi talks, reshaping the AI chip trade war. Meanwhile, OpenAI restructured its entire product organization under Greg Brockman days before Google I/O 2026, setting the stage for a battle-royale AI platform week.</div>
+    <div class="stories">
+    <div class="story" style="border-left-color:#00D4FF">
+      <div class="story-meta">
+        <span class="region" style="color:#00D4FF">Asia</span>
+        <span class="dot">·</span>
+        <span class="source-name">Reuters / The Street</span>
+        <span class="signal" style="color:#A8FF78">↑</span>
+      </div>
+      <a href="https://www.marketscreener.com/news/tsmc-says-global-chip-market-to-hit-1-5-trillion-by-2030-as-ai-drives-growth-ce7f5bdcd08cf62d" target="_blank" rel="noopener noreferrer" class="story-title">TSMC Raises Global Chip Market Forecast 50% to $1.5 Trillion by 2030, Driven by AI Demand <span class="ext-icon">↗</span></a>
+      <div class="summary">Taiwan Semiconductor Manufacturing Co. dramatically upgraded its long-term semiconductor market outlook from $1 trillion to over $1.5 trillion by 2030, attributing the revision to surging AI and high-performance computing demand, which it now expects to represent 55% of the total market. TSMC reported Q1 2026 revenue up 40.6% year-over-year with gross margin hitting 66.2%, and raised its full-year 2026 revenue growth outlook to above 30%. To meet demand, it plans to ramp 2nm and A16 chip capacity at a 70% CAGR through 2028, while expanding fabs across Arizona, Japan, and Germany.</div>
+      <div class="significance">↳ TSMC's revised forecast signals that AI infrastructure spending is no longer cyclical but structural, with the company controlling two critical bottlenecks — advanced chip fabrication and AI packaging — that determine how fast the world's AI systems can actually reach deployment.</div>
+    </div>
+    <div class="story" style="border-left-color:#00D4FF">
+      <div class="story-meta">
+        <span class="region" style="color:#00D4FF">Western</span>
+        <span class="dot">·</span>
+        <span class="source-name">CNBC</span>
+        <span class="signal" style="color:#FFD700">◉</span>
+      </div>
+      <a href="https://www.cnbc.com/2026/05/15/the-tech-download-trump-xi-talks-chips-rare-earths.html" target="_blank" rel="noopener noreferrer" class="story-title">U.S. Clears Nvidia H200 AI Chip Sales to 10 Chinese Firms After Trump-Xi Summit <span class="ext-icon">↗</span></a>
+      <div class="summary">The U.S. Department of Commerce authorized approximately 10 major Chinese companies — including Alibaba, Tencent, and ByteDance — to purchase Nvidia H200 AI processors under a controlled licensing framework capping orders at 75,000 units per customer, following high-level Trump-Xi talks in Beijing. Nvidia CEO Jensen Huang, who joined the U.S. delegation, confirmed the company has received purchase orders and has restarted H200 manufacturing. However, the deal remains politically contentious, with a Council on Foreign Relations senior fellow warning the move would trigger a fierce backlash from China hawks in Congress, and no physical chip deliveries have yet been made.</div>
+      <div class="significance">↳ The partial lifting of AI chip export restrictions marks the most significant U.S. policy reversal on semiconductor trade in years, potentially restoring billions in Nvidia revenue while raising national security alarms and accelerating China's domestic chip development as a hedge.</div>
+    </div>
+    <div class="story" style="border-left-color:#00D4FF">
+      <div class="story-meta">
+        <span class="region" style="color:#00D4FF">Western</span>
+        <span class="dot">·</span>
+        <span class="source-name">TechTimes / CNBC</span>
+        <span class="signal" style="color:#FFD700">◉</span>
+      </div>
+      <a href="https://www.techtimes.com/articles/316730/20260516/openai-unifies-chatgpt-codex-developer-api-under-co-founder-brockman-four-days-before-google-i-o.htm" target="_blank" rel="noopener noreferrer" class="story-title">OpenAI Unifies ChatGPT, Codex, and Developer API Under Brockman in Pre-IPO Restructuring <span class="ext-icon">↗</span></a>
+      <div class="summary">OpenAI announced an internal overhaul merging its ChatGPT, Codex coding agent, and Developer API into a single product organization under co-founder and president Greg Brockman, just days before Google I/O 2026 opens on May 19. The reorganization is framed around building a desktop 'superapp' that integrates an AI browser (Atlas), code execution, and a conversational interface into one agentic platform targeting enterprise and developer users. The move is also explicitly tied to preparations for a potential IPO, though OpenAI projects $14 billion in losses in 2026 on ~$25 billion in annualized revenue, with profitability not expected before 2029.</div>
+      <div class="significance">↳ OpenAI's structural consolidation ahead of Google I/O reveals the intensity of the agentic AI platform war: the company is betting that a single, browser-integrated desktop OS-style app can fend off Microsoft Copilot, Google Gemini, and Anthropic before a high-stakes public listing.</div>
+    </div>
+    <div class="story" style="border-left-color:#00D4FF">
+      <div class="story-meta">
+        <span class="region" style="color:#00D4FF">Western</span>
+        <span class="dot">·</span>
+        <span class="source-name">Android Authority / CNBC</span>
+        <span class="signal" style="color:#A8FF78">↑</span>
+      </div>
+      <a href="https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/" target="_blank" rel="noopener noreferrer" class="story-title">Google I/O 2026 Opens Tuesday: New Gemini Model, Android 'Intelligence System', and XR Glasses Expected <span class="ext-icon">↗</span></a>
+      <div class="summary">Google's annual developer conference kicks off May 19, with a new flagship Gemini AI model expected as the headline announcement — reportedly in the same performance class as OpenAI's GPT-5.5 but below Anthropic's Mythos. Google has already previewed 'Gemini Intelligence' for Android 17, describing the OS as transitioning from an 'operating system to an intelligence system' capable of moving across apps and completing multi-step tasks autonomously. Additional expected announcements include Android XR smart glasses (developed with Samsung), the Googlebooks laptop platform fusing Android and ChromeOS, and Veo video AI upgrades.</div>
+      <div class="significance">↳ Google I/O 2026 is shaping up as the most consequential AI platform showcase of the year, directly challenging OpenAI's superapp vision and Apple's upcoming WWDC AI reboot on every surface — phone, laptop, car, glasses — simultaneously.</div>
+    </div></div>
+    
+      <div class="signal-box" style="border-left-color:#00D4FF">
+        <div class="signal-label">30–90 Day Signal</div>
+        <div class="signal-text">The next 30–90 days will determine whether the AI platform consolidation race produces real winners or a crowded stalemate. Watch: (1) Whether Nvidia H200 physical shipments to China actually clear Beijing's new supply-chain regulations — failure to ship would accelerate Huawei Ascend dominance in China; (2) Google I/O 2026 (May 19) for a new Gemini model that could reset developer platform loyalty; (3) OpenAI's superapp launch timeline and IPO filing signals amid $14B projected losses; (4) TSMC's ability to ramp CoWoS advanced packaging at 80%+ CAGR — this is the single hardest physical bottleneck constraining how quickly AI systems actually ship at scale globally.</div>
+      </div>
+    <div class="bias-note">Coverage note: African and Latin American tech perspectives are entirely absent today. Southeast Asian angles on AI chip supply chain disruption (particularly Singapore and Malaysia, which host critical TSMC and Intel packaging operations) are underrepresented. Russian and Middle Eastern state-linked AI investment narratives are also missing from today's coverage pool.</div>
+  </div>
+</div>
+
+<div class="footer">
+  <span>State media sources tagged as reference only — interpret with caution.</span>
+  <span>Generated 2026-05-17 12:43 UTC</span>
+</div>
+
+</body>
+</html>

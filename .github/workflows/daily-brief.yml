@@ -32,11 +32,14 @@ jobs:
       - name: Export to JSON
         run: python backend/export.py
 
+      - name: Render HTML
+        run: python backend/render.py
+
       - name: Commit results
         run: |
           git config user.name "morning-brief-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/exports/
+          git add data/exports/ docs/index.html
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
