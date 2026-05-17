@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-17",
+    "category": "tech",
+    "headline": "Tech's week of reckoning: TSMC rewrites the chip ceiling, Nvidia unlocks China, OpenAI restructures for IPO, and Google readies its biggest AI salvo yet",
+    "tldr": "TSMC raised its global semiconductor market forecast 50% to $1.5 trillion by 2030, driven by AI demand now expected to own 55% of the market. The U.S. cleared Nvidia H200 chip sales to 10 Chinese firms following Trump-Xi talks, reshaping the AI chip trade war. Meanwhile, OpenAI restructured its entire product organization under Greg Brockman days before Google I/O 2026, setting the stage for a battle-royale AI platform week.",
+    "signal": "The next 30–90 days will determine whether the AI platform consolidation race produces real winners or a crowded stalemate. Watch: (1) Whether Nvidia H200 physical shipments to China actually clear Beijing's new supply-chain regulations — failure to ship would accelerate Huawei Ascend dominance in China; (2) Google I/O 2026 (May 19) for a new Gemini model that could reset developer platform loyalty; (3) OpenAI's superapp launch timeline and IPO filing signals amid $14B projected losses; (4) TSMC's ability to ramp CoWoS advanced packaging at 80%+ CAGR — this is the single hardest physical bottleneck constraining how quickly AI systems actually ship at scale globally.",
+    "bias_note": "African and Latin American tech perspectives are entirely absent today. Southeast Asian angles on AI chip supply chain disruption (particularly Singapore and Malaysia, which host critical TSMC and Intel packaging operations) are underrepresented. Russian and Middle Eastern state-linked AI investment narratives are also missing from today's coverage pool.",
+    "created_at": "2026-05-17T12:37:15.532859+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "TSMC Raises Global Chip Market Forecast 50% to $1.5 Trillion by 2030, Driven by AI Demand",
+        "summary": "Taiwan Semiconductor Manufacturing Co. dramatically upgraded its long-term semiconductor market outlook from $1 trillion to over $1.5 trillion by 2030, attributing the revision to surging AI and high-performance computing demand, which it now expects to represent 55% of the total market. TSMC reported Q1 2026 revenue up 40.6% year-over-year with gross margin hitting 66.2%, and raised its full-year 2026 revenue growth outlook to above 30%. To meet demand, it plans to ramp 2nm and A16 chip capacity at a 70% CAGR through 2028, while expanding fabs across Arizona, Japan, and Germany.",
+        "source": "Reuters / The Street",
+        "source_region": "Asia",
+        "source_url": "https://www.marketscreener.com/news/tsmc-says-global-chip-market-to-hit-1-5-trillion-by-2030-as-ai-drives-growth-ce7f5bdcd08cf62d",
+        "significance": "TSMC's revised forecast signals that AI infrastructure spending is no longer cyclical but structural, with the company controlling two critical bottlenecks — advanced chip fabrication and AI packaging — that determine how fast the world's AI systems can actually reach deployment.",
+        "trend_signal": "bull",
+        "created_at": "2026-05-17T12:37:15.532859+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "U.S. Clears Nvidia H200 AI Chip Sales to 10 Chinese Firms After Trump-Xi Summit",
+        "summary": "The U.S. Department of Commerce authorized approximately 10 major Chinese companies — including Alibaba, Tencent, and ByteDance — to purchase Nvidia H200 AI processors under a controlled licensing framework capping orders at 75,000 units per customer, following high-level Trump-Xi talks in Beijing. Nvidia CEO Jensen Huang, who joined the U.S. delegation, confirmed the company has received purchase orders and has restarted H200 manufacturing. However, the deal remains politically contentious, with a Council on Foreign Relations senior fellow warning the move would trigger a fierce backlash from China hawks in Congress, and no physical chip deliveries have yet been made.",
+        "source": "CNBC",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/05/15/the-tech-download-trump-xi-talks-chips-rare-earths.html",
+        "significance": "The partial lifting of AI chip export restrictions marks the most significant U.S. policy reversal on semiconductor trade in years, potentially restoring billions in Nvidia revenue while raising national security alarms and accelerating China's domestic chip development as a hedge.",
+        "trend_signal": "watch",
+        "created_at": "2026-05-17T12:37:15.532859+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "OpenAI Unifies ChatGPT, Codex, and Developer API Under Brockman in Pre-IPO Restructuring",
+        "summary": "OpenAI announced an internal overhaul merging its ChatGPT, Codex coding agent, and Developer API into a single product organization under co-founder and president Greg Brockman, just days before Google I/O 2026 opens on May 19. The reorganization is framed around building a desktop 'superapp' that integrates an AI browser (Atlas), code execution, and a conversational interface into one agentic platform targeting enterprise and developer users. The move is also explicitly tied to preparations for a potential IPO, though OpenAI projects $14 billion in losses in 2026 on ~$25 billion in annualized revenue, with profitability not expected before 2029.",
+        "source": "TechTimes / CNBC",
+        "source_region": "Western",
+        "source_url": "https://www.techtimes.com/articles/316730/20260516/openai-unifies-chatgpt-codex-developer-api-under-co-founder-brockman-four-days-before-google-i-o.htm",
+        "significance": "OpenAI's structural consolidation ahead of Google I/O reveals the intensity of the agentic AI platform war: the company is betting that a single, browser-integrated desktop OS-style app can fend off Microsoft Copilot, Google Gemini, and Anthropic before a high-stakes public listing.",
+        "trend_signal": "watch",
+        "created_at": "2026-05-17T12:37:15.532859+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "Google I/O 2026 Opens Tuesday: New Gemini Model, Android 'Intelligence System', and XR Glasses Expected",
+        "summary": "Google's annual developer conference kicks off May 19, with a new flagship Gemini AI model expected as the headline announcement — reportedly in the same performance class as OpenAI's GPT-5.5 but below Anthropic's Mythos. Google has already previewed 'Gemini Intelligence' for Android 17, describing the OS as transitioning from an 'operating system to an intelligence system' capable of moving across apps and completing multi-step tasks autonomously. Additional expected announcements include Android XR smart glasses (developed with Samsung), the Googlebooks laptop platform fusing Android and ChromeOS, and Veo video AI upgrades.",
+        "source": "Android Authority / CNBC",
+        "source_region": "Western",
+        "source_url": "https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/",
+        "significance": "Google I/O 2026 is shaping up as the most consequential AI platform showcase of the year, directly challenging OpenAI's superapp vision and Apple's upcoming WWDC AI reboot on every surface — phone, laptop, car, glasses — simultaneously.",
+        "trend_signal": "bull",
+        "created_at": "2026-05-17T12:37:15.532859+00:00"
+      }
+    ]
+  }
+]
