@@ -56,11 +56,19 @@ def render_story(story: dict, color: str) -> str:
     title = story.get("title", "")
     summary = story.get("summary", "")
     significance = story.get("significance", "")
+    route = story.get("route", "")
 
     if has_url:
         title_html = f'<a href="{story["source_url"]}" target="_blank" rel="noopener noreferrer" class="story-title">{title} <span class="ext-icon">↗</span></a>'
     else:
         title_html = f'<span class="story-title-plain">{title}</span>'
+
+    if route == "personal":
+        route_badge = '<span class="route-badge route-personal">Your Focus</span>'
+    elif route == "world":
+        route_badge = '<span class="route-badge route-world">World</span>'
+    else:
+        route_badge = ""
 
     return f"""
     <div class="story" style="border-left-color:{color}">
@@ -68,6 +76,7 @@ def render_story(story: dict, color: str) -> str:
         <span class="region" style="color:{color}">{region}</span>
         <span class="dot">·</span>
         <span class="source-name">{source}</span>
+        {route_badge}
         <span class="signal" style="color:{sig_color}">{sig_label}</span>
       </div>
       {title_html}
@@ -163,6 +172,10 @@ def render_html(date_str: str, briefs: list[dict]) -> str:
 
   .bias-note {{ margin-top: 12px; font-size: 11px; color: #555; font-style: italic; }}
 
+  .route-badge {{ font-size: 9px; font-family: monospace; letter-spacing: 0.08em; text-transform: uppercase; padding: 1px 5px; border-radius: 2px; }}
+  .route-personal {{ background: #1a2a1a; color: #A8FF78; border: 1px solid #2a4a2a; }}
+  .route-world {{ background: #1a1a2a; color: #7EB8FF; border: 1px solid #2a2a4a; }}
+
   .footer {{ padding: 16px 24px; border-top: 1px solid #1A1A1A; font-size: 11px; color: #333; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }}
 
   @media (max-width: 600px) {{
@@ -188,7 +201,12 @@ def render_html(date_str: str, briefs: list[dict]) -> str:
   <span><span style="color:#FF6B6B;font-weight:700">↓</span> Bear</span>
   <span><span style="color:#888;font-weight:700">–</span> Neutral</span>
   <span><span style="color:#FFD700;font-weight:700">◉</span> Watch</span>
-  <span style="margin-left:auto">Click story titles to open source</span>
+  <span style="color:#444">·</span>
+  <span class="route-badge route-personal">Your Focus</span>
+  <span style="font-size:11px;color:#555">Shunのメモに関連</span>
+  <span class="route-badge route-world">World</span>
+  <span style="font-size:11px;color:#555">世間の注目</span>
+  <span style="margin-left:auto;font-size:11px;color:#555">Click titles to open source</span>
 </div>
 
 <div class="grid">

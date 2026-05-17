@@ -36,6 +36,7 @@ CREATE TABLE IF NOT EXISTS stories (
     source_url TEXT,
     significance TEXT,
     trend_signal TEXT,
+    route TEXT,
     created_at TEXT NOT NULL
 );
 
@@ -134,6 +135,10 @@ def get_conn() -> sqlite3.Connection:
 def init_db() -> None:
     with get_conn() as conn:
         conn.executescript(SCHEMA)
+        # Additive migrations
+        existing_cols = {row[1] for row in conn.execute("PRAGMA table_info(stories)")}
+        if "route" not in existing_cols:
+            conn.execute("ALTER TABLE stories ADD COLUMN route TEXT")
         # Set cold start end date if not already set (14 days from first run)
         existing = conn.execute(
             "SELECT value FROM config WHERE key = 'cold_start_end_date'"
@@ -171,8 +176,8 @@ def save_brief(date: str, category: str, data: dict[str, Any]) -> int:
             conn.execute(
                 """INSERT INTO stories
                    (brief_id, title, summary, source, source_region, source_url,
-                    significance, trend_signal, created_at)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                    significance, trend_signal, route, created_at)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (
                     brief_id,
                     story.get("title"),
@@ -182,6 +187,7 @@ def save_brief(date: str, category: str, data: dict[str, Any]) -> int:
                     story.get("source_url"),
                     story.get("significance"),
                     story.get("trend_signal"),
+                    story.get("route"),
                     now,
                 ),
             )

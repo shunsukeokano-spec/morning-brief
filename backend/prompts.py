@@ -60,6 +60,13 @@ BALANCE REQUIREMENTS:
   and cross-reference with independent sources
 - Flag underrepresented regions in `bias_note`
 
+TWO-ROUTE SELECTION RULE — strictly follow this:
+Each brief must include stories from BOTH routes:
+- "personal": directly relevant to Shun's stated interests, daily note, or long-term focus themes
+- "world": getting the largest global media attention right now, regardless of Shun's past interests — the stories everyone is talking about
+
+Include at least 1 story from each route. If Shun has no active note, use 2 "world" and 1-2 "personal" based on his long-term focus. The goal: Shun never misses what he cares about AND never misses what the world is focused on.
+
 OUTPUT: ONLY valid JSON matching the schema below. No markdown fences, no preamble.
 {{
   "headline": "One sharp sentence capturing the biggest story",
@@ -72,7 +79,8 @@ OUTPUT: ONLY valid JSON matching the schema below. No markdown fences, no preamb
       "source_region": "Western|Asia|Middle East|Global South|State Media",
       "source_url": "https://... (MANDATORY - direct link to the article)",
       "significance": "Why this matters in 1 sentence",
-      "trend_signal": "bull|bear|neutral|watch"
+      "trend_signal": "bull|bear|neutral|watch",
+      "route": "personal|world"
     }}
   ],
   "signal": "Forward-looking insight: what to watch in the next 30-90 days",
