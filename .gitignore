@@ -1,0 +1,15 @@
+# SQLite DB (binary, regeneratable from exports)
+data/briefs.db
+data/briefs.db-journal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+.DS_Store

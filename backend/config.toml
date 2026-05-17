@@ -1,0 +1,14 @@
+# Morning Brief configuration
+# ANTHROPIC_API_KEY must be set as an environment variable (GitHub Secret)
+
+[collection]
+model = "claude-sonnet-4-6"
+max_tokens = 2000
+categories = ["tech", "politics", "economy", "startups", "ai_forecast"]
+
+[export]
+exports_dir = "data/exports"
+
+[cold_start]
+# Duration in days for explicit feedback UI after first run
+duration_days = 14
