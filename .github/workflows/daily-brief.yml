@@ -33,6 +33,8 @@ jobs:
         run: python backend/export.py
 
       - name: Render HTML
+        env:
+          NOTE_WORKER_URL: ${{ secrets.NOTE_WORKER_URL }}
         run: python backend/render.py
 
       - name: Commit results
