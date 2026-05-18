@@ -2,7 +2,9 @@
 
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+
+JST = timezone(timedelta(hours=9))
 from pathlib import Path
 
 import db
@@ -26,5 +28,5 @@ def export_date(date: str) -> Path:
 
 
 if __name__ == "__main__":
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = datetime.now(JST).strftime("%Y-%m-%d")
     export_date(today)

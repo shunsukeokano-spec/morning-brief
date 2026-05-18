@@ -12,7 +12,9 @@ import json
 import logging
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+
+JST = timezone(timedelta(hours=9))
 from pathlib import Path
 
 from anthropic import Anthropic
@@ -103,7 +105,7 @@ def main() -> int:
 
     db.init_db()
     client = Anthropic()  # reads ANTHROPIC_API_KEY from env
-    today_iso = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today_iso = datetime.now(JST).strftime("%Y-%m-%d")
     today_human = prompts.get_today()
 
     user_note = read_user_note()

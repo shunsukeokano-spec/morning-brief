@@ -140,4 +140,6 @@ def user_prompt(category_key: str, user_note: str = "", monthly_summary: str = "
 
 
 def get_today() -> str:
-    return datetime.utcnow().strftime("%A, %B %d, %Y")
+    from datetime import timezone, timedelta
+    JST = timezone(timedelta(hours=9))
+    return datetime.now(JST).strftime("%A, %B %d, %Y")
