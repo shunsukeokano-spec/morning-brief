@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-19",
+    "category": "tech",
+    "headline": "Trump leaves Beijing empty-handed on trade and Iran — but Nvidia's H200 chip stalemate reveals the real frontline of US-China rivalry",
+    "tldr": "Trump's May 13–15 state visit to China produced warm optics but no breakthroughs on trade, Iran, or semiconductor sales. The US approved Nvidia H200 chip exports to 10 Chinese firms, yet Beijing is blocking purchases, steering its tech giants toward Huawei's domestic AI chips instead. Xi warned over Taiwan, Trump called arms sales a 'negotiating chip', and a September White House summit is set — meaning the hard bargaining has only been deferred.",
+    "signal": "Watch three converging timelines over the next 30–90 days: (1) Whether any Nvidia H200 chips actually ship to China — a delivery before the September Trump-Xi Washington summit would signal a genuine thaw; zero deliveries would confirm permanent bifurcation. (2) Whether Trump signs or delays the $14 billion Taiwan arms package — Beijing is using the Iran war and chip access as leverage to kill or defer it, and a delay would be read as a major concession to Xi. (3) Huawei's Ascend 950DT chip launch and further DeepSeek V4 inference benchmarks — if Chinese AI models demonstrably close the performance gap with US frontier models on domestic hardware, the geopolitical case for chip export controls weakens considerably in Washington.",
+    "bias_note": "Latin American and African perspectives are absent today. Chinese state media framing (People's Daily/Xinhua characterised the summit as 'fruitful') is not independently corroborated and should be read as diplomatic signalling rather than objective reporting. Taiwanese independent media voices and Southeast Asian perspectives on Taiwan Strait risk are underrepresented.",
+    "created_at": "2026-05-18T21:57:47.532297+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "Trump-Xi Summit: Warm Words, No Breakthroughs — Taiwan and Iran Left Unresolved",
+        "summary": "Trump's first China visit since 2017 ended with agreements on 'strategic stability' and a Boeing order of 200 aircraft, but no progress on trade tariffs, the Iran war, or Taiwan. Xi delivered a stark warning that Taiwan could trigger 'clashes and even conflicts', while Trump told reporters he made 'no commitment either way' on the island. Xi is invited to Washington on September 24, deferring the hardest conversations to later in the year.",
+        "source": "Reuters / CFR",
+        "source_region": "Western",
+        "source_url": "https://www.cfr.org/articles/trump-wraps-china-visit",
+        "significance": "The summit set the tone for US-China relations through 2026, with Xi extracting rhetorical concessions on Taiwan while conceding almost nothing on trade, Iran, or chips — a result most independent analysts characterise as a win for Beijing.",
+        "trend_signal": "watch",
+        "route": "world",
+        "created_at": "2026-05-18T21:57:47.532297+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "Nvidia H200 Chip Stalemate: US Approves Sales, Beijing Blocks Them — and Huawei Fills the Gap",
+        "summary": "The US Commerce Department cleared 10 Chinese firms — including Alibaba, Tencent, ByteDance, and JD.com — to each buy up to 75,000 Nvidia H200 chips, with Nvidia required to route shipments through US territory and remit 25% of revenue to the government. Despite the approval, not one chip has shipped: Beijing is actively discouraging purchases and steering its AI industry toward Huawei's Ascend 950PR. Huawei is targeting $12 billion in AI chip revenue in 2026, up ~60% year-on-year, with DeepSeek's V4 model now optimised to run on Ascend hardware.",
+        "source": "CNBC / Tom's Hardware / Reuters",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html",
+        "significance": "The H200 impasse is the clearest signal yet that the US-China tech decoupling is hardening into two separate AI hardware ecosystems — with Nvidia at risk of permanently losing the world's largest AI market just as Huawei closes the performance gap.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-18T21:57:47.532297+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "Trump Calls Taiwan Arms Deal a 'Negotiating Chip' — Taipei Pushes Back Hard",
+        "summary": "After his Beijing summit, Trump described a pending $14 billion US arms sale to Taiwan as leverage with China, prompting an immediate rebuttal from Taiwan's President Lai Ching-te, who called the arms purchases 'the most important deterrent of regional conflict.' Xi had warned Trump that mishandling Taiwan could lead to 'clashes and even conflicts', and Beijing's Chinese Embassy had publicly listed Taiwan as one of 'four red lines' that must not be crossed. US Speaker Mike Johnson and Secretary of State Rubio both stressed that official policy on Taiwan is 'unchanged', but analysts note strategic ambiguity is visibly eroding.",
+        "source": "Fortune / Tom's Hardware / CNN",
+        "source_region": "Western",
+        "source_url": "https://fortune.com/2026/05/17/taiwan-president-us-arms-sales-trump-china-bargaining-chip-deterrent-regional-conflict/",
+        "significance": "Trump's framing of Taiwan security as transactional — not treaty-bound — directly affects the risk calculus for TSMC, the entire semiconductor supply chain, and regional stability in a way that markets have not yet fully priced in.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-05-18T21:57:47.532297+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "DeepSeek V4 Runs on Huawei Chips — China's AI Hardware Independence Takes a Concrete Step Forward",
+        "summary": "Chinese AI lab DeepSeek unveiled its V4 model specifically optimised for Huawei's Ascend 950PR chip, marking the first time a frontier Chinese AI model has been publicly tailored to domestic hardware for inference workloads. Nvidia CEO Jensen Huang warned: 'The day that DeepSeek comes out on Huawei first, that is a horrible outcome for our nation.' Morgan Stanley estimates China's domestic AI chip suppliers could account for $21 billion of market revenue this year, growing to 86% of a $67 billion market by 2030.",
+        "source": "Reuters / Tom's Hardware",
+        "source_region": "Western",
+        "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-could-seize-chinas-ai-chip-crown-in-2026-as-nvidias-h200-shipments-stall-in-regulatory-limbo-beijing-pushes-homegrown-ai-hardware-dominance-in-a-market-projected-to-hit-usd67-billion-by-2030",
+        "significance": "DeepSeek V4's Huawei-first optimisation is a structural inflection point: if top Chinese AI models become natively Huawei-native, Nvidia's CUDA software moat — its most durable competitive advantage — begins to fracture inside China's developer ecosystem.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-18T21:57:47.532297+00:00"
+      }
+    ]
+  }
+]
