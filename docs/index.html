@@ -194,7 +194,7 @@
 
 <div class="footer">
   <span>State media sources tagged as reference only — interpret with caution.</span>
-  <span>Generated 2026-05-18 00:13 UTC</span>
+  <span>Generated 2026-05-18 00:55 UTC</span>
 </div>
 
 <!-- Token setup modal -->
@@ -283,7 +283,7 @@ async function saveNote() {
     if (res.ok) {
       const data = await res.json();
       _sha = data.content.sha;
-      setStatus('ok', '✓ Saved — will appear in tomorrow's brief');
+      setStatus('ok', "✓ Saved — will appear in tomorrow's brief");
       document.getElementById('note-input').value = '';
       const el = document.getElementById('note-current');
       el.textContent = '現在のメモ: ' + note;

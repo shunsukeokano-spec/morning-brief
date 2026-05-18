@@ -345,7 +345,7 @@ async function saveNote() {{
     if (res.ok) {{
       const data = await res.json();
       _sha = data.content.sha;
-      setStatus('ok', '✓ Saved — will appear in tomorrow\'s brief');
+      setStatus('ok', "✓ Saved — will appear in tomorrow's brief");
       document.getElementById('note-input').value = '';
       const el = document.getElementById('note-current');
       el.textContent = '現在のメモ: ' + note;
