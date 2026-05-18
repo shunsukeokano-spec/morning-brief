@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-18",
+    "category": "tech",
+    "headline": "Trump-Xi Beijing Summit Ends Without AI or Chip Deal — But H200 Export Clearances Signal a Transactional New Era",
+    "tldr": "Trump's first China state visit in his second term concluded last week with no formal AI or semiconductor agreement, yet Reuters confirmed Washington quietly cleared Nvidia H200 chip sales to roughly 10 Chinese tech firms including Alibaba, Tencent, and ByteDance. Meanwhile China is accelerating domestic chip independence via Huawei and DeepSeek, and Japanese memory maker Kioxia — up 300% this year — announced a US listing as the global NAND shortage deepens. Shun's question answered: Trump's China tech policy is now overtly transactional — chip access for trade concessions — but implementation remains frozen between Washington hawks and Beijing's own chip-nationalism.",
+    "signal": "Watch three converging triggers over the next 30–90 days: (1) Whether any Nvidia H200 units actually ship to China — Commerce Secretary Lutnick's confirmation that zero units have moved means the 'deal' is still theoretical; the first real shipment or a formal block will be the true policy signal. (2) The AI Overwatch Act's progress in the Senate — if it passes, export licenses could be revoked retroactively, creating a permanent overhang for Nvidia's China revenue. (3) Kioxia's US ADS listing timeline and whether Samsung/SK Hynix redirect HBM capacity back to NAND as AI chip demand plateaus — this would be the first sign the memory supercycle is cresting. Rare earth export truce expiry this autumn adds a further systemic wildcard for the entire semiconductor supply chain.",
+    "bias_note": "Latin American and African tech perspectives are absent today. Middle East coverage is limited to its role in the Iran-Strait of Hormuz context affecting energy/chip economics. Indian semiconductor policy — a growing alternative manufacturing destination to Taiwan amid US-China tensions — is underrepresented and worth monitoring separately.",
+    "created_at": "2026-05-18T01:19:46.062563+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "Trump-Xi Summit Ends Without AI Deal — H200 Clearance Quietly Issued Anyway",
+        "summary": "Trump's Beijing summit (May 14–15) produced no formal agreement on AI or chip exports, with US Trade Representative Greer confirming chip export controls were not discussed at the bilateral meeting. Yet Reuters reported Washington cleared Nvidia H200 sales to ~10 Chinese firms including Alibaba, Tencent, and ByteDance, capped at 75,000 units per customer — a move a CFR senior fellow called 'politically explosive.' As of this writing, Commerce Secretary Lutnick confirmed no H200s have actually shipped to China, leaving the deal in legal and diplomatic limbo.",
+        "source": "CNBC",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/05/15/the-tech-download-trump-xi-talks-chips-rare-earths.html",
+        "significance": "Trump's China tech policy is now fully transactional — chip access is being traded for broader economic concessions — but execution is paralyzed between congressional hawks and Beijing's own chip-nationalism drive, making this the defining uncertainty for AI hardware markets heading into H2 2026.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-18T01:19:46.062563+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "China's Chip Independence Accelerates: DeepSeek Runs on Huawei, Beijing Urges Firms to Reject Nvidia",
+        "summary": "Beijing is running a deliberate two-track strategy: accepting H200 clearances at the diplomatic level while simultaneously urging domestic tech firms to reject US chips. DeepSeek pivoted to Huawei's Ascend chips for inference workloads, and Huawei's secretive Chip Fundamental Technology Research Laboratory was featured on prime-time state TV (CCTV) — a rare public signal of Beijing's semiconductor ambitions — just ahead of the Trump visit. Tencent and Alibaba both flagged increased domestic chip availability on their Q1 earnings calls.",
+        "source": "South China Morning Post",
+        "source_region": "Asia",
+        "source_url": "https://www.scmp.com/tech/policy/article/3353161/huaweis-secretive-chip-lab-featured-prime-time-tv-ahead-trumps-trip-china",
+        "significance": "China is engineering strategic optionality — publicly 'opening' to US chips while hardening domestic supply chains — meaning any Nvidia China revenue recovery will be slower and smaller than markets currently price in.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-18T01:19:46.062563+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "Kioxia Announces US Listing After Record $8.2B Quarterly Profit — 2026 NAND Already 'Sold Out'",
+        "summary": "Japanese flash memory giant Kioxia — up 300% YTD and the world's best-performing major stock this year — announced plans to list American depositary shares on a US exchange. The company posted record earnings of ¥596.8 billion for Q1 FY2026 (surpassing Toyota) and forecast ¥1.3 trillion in operating profit for Q2, far above analyst estimates. Kioxia has declared its entire 2026 NAND production capacity 'sold out', with tightness projected to extend into 2027, as hyperscaler AI infrastructure spending drives insatiable storage demand.",
+        "source": "Japan Times / Bloomberg",
+        "source_region": "Asia",
+        "source_url": "https://www.japantimes.co.jp/business/2026/05/15/companies/kioxia-ai-us-shares/",
+        "significance": "NAND flash is emerging as the next critical AI infrastructure bottleneck after GPUs; Kioxia's US listing will bring a new, structurally-important AI supply-chain play into the direct line of sight of US institutional investors at the peak of the shortage.",
+        "trend_signal": "bull",
+        "route": "world",
+        "created_at": "2026-05-18T01:19:46.062563+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "Semiconductor Rally Pauses on Inflation Shock — Analysts Warn of 1999-Style Correction Risk",
+        "summary": "Chip stocks sold off sharply on Friday (May 15) after a hotter-than-expected US CPI print (3.8% YoY, fastest since May 2023) raised fears of prolonged high rates. Nvidia, AMD, Marvell, and Micron each fell 3–5%, and the Philadelphia Semiconductor Index dropped over 3% — despite having surged ~64% since late March. BTIG analyst Jonathan Krinsky warned the magnitude of the semiconductor markup 'in some ways is actually more extreme' than the dot-com bubble, flagging a potential 25–30% correction.",
+        "source": "Yahoo Finance / GuruFocus",
+        "source_region": "Western",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-leads-chip-stock-150611712.html",
+        "significance": "The convergence of macro inflation risk, the Trump-Xi summit's failure to deliver a clean chip-deal catalyst, and stretched semiconductor valuations creates a fragile setup for the sector entering the week of May 18.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-05-18T01:19:46.062563+00:00"
+      }
+    ]
+  }
+]
