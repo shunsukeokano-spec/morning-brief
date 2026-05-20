@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-21",
+    "category": "tech",
+    "headline": "Nvidia shatters records with $81.6B quarterly revenue as Europe prepares to cut the cord from US tech — one week before a landmark sovereignty deadline",
+    "tldr": "Nvidia just reported blowout Q1 FY2027 results — $81.6B in revenue, up 85% year-on-year — cementing AI hardware's dominance of global markets. Meanwhile, the EU is days away from unveiling its 'Tech Sovereignty Package' on May 27, signaling a structural decoupling from US cloud and AI infrastructure driven by deep distrust of Trump's Washington. And as Europe pulls west, Russia is pulling east — deepening its tech dependency on China, which now supplies an estimated 90% of Russia's dual-use war technology.",
+    "signal": "Watch three convergent deadlines: (1) May 27 — the EU Tech Sovereignty Package lands; its Cloud and AI Development Act language will determine whether US hyperscalers face hard exclusion or softer 'effective control' requirements. (2) Late June — Putin's state visit to Beijing will test whether the Xi–Putin summit formalizes deeper AI and semiconductor cooperation, or remains performative. (3) H2 2026 — Nvidia's Rubin GPU architecture begins shipping; whether Beijing lifts its informal embargo on H200/Rubin chips will be the single biggest wildcard for AI hardware markets. All three storylines intersect: if Europe locks out US cloud, Beijing keeps blocking Nvidia, and Russia-China tech ties deepen, the world's digital infrastructure will be visibly fracturing along geopolitical fault lines by Q4 2026.",
+    "bias_note": "Global South and Latin American perspectives are underrepresented today. African and Southeast Asian reactions to the US–EU tech split and to the China-Russia technology axis — regions that may be forced to choose sides in digital infrastructure — are absent from this briefing.",
+    "created_at": "2026-05-20T22:19:24.654657+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "Nvidia Reports Record $81.6B Quarter — The AI Chip Supercycle Shows No Signs of Slowing",
+        "summary": "Nvidia reported record Q1 FY2027 revenue of $81.6 billion after the bell on May 20, up 85% year-on-year and beating Wall Street estimates of $79.18B. Data center revenue alone hit $75.2B, and Q2 guidance of $89.1–92.8B also exceeded analyst expectations. The China market remains frozen — Beijing is instructing domestic firms to wait and back Huawei — meaning this extraordinary growth is occurring without one of the world's largest economies.",
+        "source": "Yahoo Finance / Nvidia IR",
+        "source_region": "Western",
+        "source_url": "https://finance.yahoo.com/markets/stocks/article/nvidia-to-report-q1-earnings-as-chip-competition-grows-191200841.html",
+        "significance": "Nvidia's results are the definitive pulse-check on the global AI infrastructure buildout — hyperscalers have collectively committed ~$725B in capex for 2026, and Nvidia remains the essential bottleneck in that chain.",
+        "trend_signal": "bull",
+        "route": "world",
+        "created_at": "2026-05-20T22:19:24.654657+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "EU's Tech Sovereignty Package — Due May 27 — Set to Restrict US Cloud Providers from Handling Sensitive Government Data",
+        "summary": "The European Commission is expected to unveil its landmark 'Tech Sovereignty Package' on May 27, just one week from today. Driven by deep alarm over Trump's unpredictability and the US CLOUD Act's reach, the package would bar EU governments from using American cloud platforms for sensitive data in healthcare, finance, and judicial systems. The package also includes the Cloud and AI Development Act (CADA) and Chips Act 2.0 — a full-stack attempt to build European digital independence. In 2026, as TechCrunch notes, 'not being American — nor Chinese or Russian — is increasingly a selling point.'",
+        "source": "TechCrunch / CNBC",
+        "source_region": "Western",
+        "source_url": "https://techcrunch.com/2026/04/27/whats-behind-europes-efforts-to-ditch-u-s-software-in-favor-of-sovereign-tech/",
+        "significance": "This is the most consequential structural shift in the US–EU tech relationship in decades — directly answering Shun's question about where the transatlantic relationship is heading, specifically through the lens of technology.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-20T22:19:24.654657+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "Russia Deepens Tech Dependency on China — Beijing Now Supplies ~90% of Russia's Dual-Use War Technology",
+        "summary": "As of May 2026, China is reported to be supplying approximately 90% of Russia's dual-use technology for the Ukraine war. In April 2026, the EU imposed sanctions on Chinese entities for the first time over this trade. Russian scholars and officials are openly expressing interest in China's AI open-source models — including DeepSeek — as a workaround to GPU-related sanctions. Putin, after Victory Day, called the China-Russia relationship 'a pillar of international stability' and previewed an upcoming state visit to Beijing. Yet analysts caution the relationship is asymmetric: Russia is increasingly dependent, while China retains strategic autonomy and avoids any formal defense commitment.",
+        "source": "The Diplomat / Global Times (State Media) / CEPA",
+        "source_region": "Asia",
+        "source_url": "https://thediplomat.com/2026/05/russia-and-the-china-us-summit/",
+        "significance": "Directly addresses Shun's question — Russia is not an equal partner to China but a junior, dependent one; China is drawing Russia closer on its own terms, using tech as leverage while maintaining its freedom of maneuver with the West.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-20T22:19:24.654657+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "Europe's Digital Divorce from America: From Rhetoric to Procurement Law",
+        "summary": "European governments — led by France and Germany — are moving from political statements to operational action, with France mandating its own 'Visio' video tool for state employees in place of Zoom and Teams, and the EU Parliament reviewing its Microsoft dependency. US cloud providers currently hold an 85% share of the European market, but new 'Buy European' procurement mandates, a €48.5B Competitiveness Fund, and the upcoming CADA legislation are designed to redirect that spending. As one EU official put it, 'dependencies can be weaponised against us.' The urgency is explicitly linked to Trump's erratic posture — including threats over Greenland and weaponized sanctions against ICC judges.",
+        "source": "France 24 / TechCrunch",
+        "source_region": "Western",
+        "source_url": "https://www.france24.com/en/live-news/20260205-trump-fuels-eu-push-to-cut-cord-with-us-tech",
+        "significance": "This is the structural answer to Shun's question on US–Europe relations: the break is happening in technology first, quietly but irreversibly, and the May 27 package will be the moment it enters law.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-20T22:19:24.654657+00:00"
+      }
+    ]
+  }
+]
