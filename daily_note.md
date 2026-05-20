@@ -1,3 +1,3 @@
 <!-- 今日のブリーフを読んで気になったこと・質問を1行ここに書く。翌朝のブリーフに反映される。 -->
 
-past two days news briefs are leaning toward tech, but when we have a big political event, such as Trump's visit to China, i want to see more news on political indications
+ヨーロッパのトランプに対する嫌悪感が広がっているような気がする。アメリカとヨーロッパの関係が今後どうなっていくのか知りたい。あと、ロシアは中国に接近しようとしているのか。中国はロシアを自陣営に惹きつけようとしているのか
