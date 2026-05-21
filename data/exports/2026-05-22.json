@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-22",
+    "category": "tech",
+    "headline": "Europe races for tech sovereignty as Xi-Putin sign 40 deals, and the US MATCH Act threatens to fracture the transatlantic chip supply chain",
+    "tldr": "The EU's 'Tech Sovereignty Package' drops next week, aiming to restrict US cloud providers from handling sensitive government data — a direct symptom of eroding trust in Washington. Simultaneously, Xi and Putin signed 40 cooperation agreements including on AI and semiconductors, cementing China as Russia's technological lifeline. On the hardware front, the US MATCH Act threatens to rope ASML and Japanese chipmakers into US export control regimes, creating a new fault line between Washington and its own allies.",
+    "signal": "Watch May 27: the EU's Tech Sovereignty Package is the single biggest near-term policy moment for the transatlantic tech relationship. If CADA includes hard restrictions on US cloud for government data, expect immediate US diplomatic and trade retaliation — potentially reigniting tariff threats. Simultaneously, watch whether Beijing begins to moderate its technology flows to Russia as US-China trade stabilises post-Trump summit; if China pulls back on dual-use exports to Russia, Moscow's military production capacity could contract sharply within 90 days. For Japan specifically: the MATCH Act targeting Nikon and Canon is a direct threat to Japanese semiconductor equipment exports — track Diet and METI responses over the next 30 days.",
+    "bias_note": "Global South perspectives (Al Jazeera, The Hindu) are underrepresented today. Latin American and African angles on the AI hardware supply chain and semiconductor dependency are absent. The Russia-China story draws primarily from Western-aligned and SCMP sources; Valdai Club framing (State Media-adjacent) is noted but not amplified.",
+    "created_at": "2026-05-21T22:09:02.991947+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "EU 'Tech Sovereignty Package' Targets US Cloud Dominance — Due May 27",
+        "summary": "The European Commission is set to unveil its 'Tech Sovereignty Package' on May 27, including rules that could restrict EU member governments from using US cloud providers to process sensitive data. The package also includes the Cloud and AI Development Act (CADA) and Chips Act 2.0. This reflects a broader European push: only 16% of Europeans now consider the US a reliable ally, and in 2026, 'not being American' is increasingly a commercial and political selling point for European tech firms like Mistral AI.",
+        "source": "CNBC",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/05/07/eu-commission-cloud-sensitive-data.html",
+        "significance": "The package directly answers Shun's question about the US-Europe rift: Europe is now institutionalising its tech decoupling from America, with binding legislation — not just rhetoric.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-21T22:09:02.991947+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "Xi-Putin Summit Signs 40 Agreements on AI, Semiconductors, and Science — Aiming to Shift Tech's 'Centre of Gravity' East",
+        "summary": "Russian President Putin and Chinese President Xi Jinping met in Beijing this week, signing 40 cooperation agreements covering innovation, technology, energy, science and education. Experts cited in SCMP say the partnership could offer an 'alternative model of scientific collaboration' and signal a shift in the scientific centre of gravity from West to East. China already supplied roughly 90% of Russia's sanctioned technology imports in 2025, including dual-use semiconductors and drone components — up from 80% the prior year.",
+        "source": "South China Morning Post",
+        "source_region": "Asia",
+        "source_url": "https://www.scmp.com/news/china/science/article/3354254/how-china-and-russia-could-team-shift-global-science-centre-gravity",
+        "significance": "Directly answers Shun's question on Russia-China alignment: Beijing is deepening its role as Moscow's essential tech supplier, though a thawing US-China relationship (post-Trump Beijing visit) reduces China's incentive to fully side with Russia against the West.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-21T22:09:02.991947+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "US MATCH Act Would Force ASML and Japanese Chipmakers Into American Export Control Net",
+        "summary": "Bipartisan US senators introduced the MATCH Act in April 2026, which would prohibit ASML from selling lithography systems to China and extend US export restrictions to allied suppliers including Japan's Nikon and Canon. ASML — Europe's most valuable tech company — earned 33% of its 2025 revenues from China, and Dutch officials have flagged serious economic concerns. The Dutch government and ASML have already expressed alarm over the proposed changes, even as ASML raised its 2026 sales outlook.",
+        "source": "CSIS / Bruegel",
+        "source_region": "Western",
+        "source_url": "https://www.csis.org/analysis/new-momentum-old-problems-transatlantic-export-control-considerations",
+        "significance": "Washington is attempting to conscript European and Japanese chip equipment firms into its China containment strategy — a move that could simultaneously fracture the transatlantic tech alliance and accelerate European sovereignty drives.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-05-21T22:09:02.991947+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "AI Semiconductor Supercycle: Memory Shortage Deepens, Broadcom Eyes $100B AI Revenue by 2027",
+        "summary": "The Philadelphia Semiconductor Index has surged roughly 64% since late March, but analysts warn the rally may be masking dangerous concentration risk. Broadcom posted Q1 AI semiconductor revenue of $8.4B — up 106% year-over-year — and guided toward $100B in AI sales by 2027. Meanwhile, Micron's CEO warned key customers are receiving only '50% to two-thirds of their requirements' due to supply shortages, and the memory supercycle is now forecast to constrain AI hardware well into the 2030s.",
+        "source": "CNBC",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html",
+        "significance": "The AI hardware boom is broadening beyond Nvidia into memory and packaging — structural bottlenecks that Japan-based suppliers (e.g. memory materials, advanced packaging firms) are positioned to benefit from or be squeezed by.",
+        "trend_signal": "bull",
+        "route": "world",
+        "created_at": "2026-05-21T22:09:02.991947+00:00"
+      }
+    ]
+  }
+]
