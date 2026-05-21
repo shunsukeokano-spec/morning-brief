@@ -10,39 +10,31 @@ CATEGORIES = {
     "tech": {
         "label": "Technology",
         "query": (
-            "latest technology news AI hardware semiconductor today "
-            "site:techcrunch.com OR site:theverge.com OR site:wired.com OR "
-            "site:reuters.com OR site:ft.com OR site:nikkei.com"
+            "latest technology news AI hardware semiconductor supply chain today"
         ),
     },
     "politics": {
         "label": "Geopolitics",
         "query": (
-            "major geopolitics world politics news today "
-            "site:reuters.com OR site:bbc.com OR site:aljazeera.com OR "
-            "site:apnews.com OR site:nhk.or.jp OR site:scmp.com"
+            "international politics diplomacy geopolitics trade war sanctions alliance news today"
         ),
     },
     "economy": {
         "label": "Economy",
         "query": (
-            "global economy markets central bank finance news today "
-            "site:ft.com OR site:reuters.com OR site:bloomberg.com OR site:nikkei.com"
+            "global economy central bank interest rates currency inflation trade finance news today"
         ),
     },
     "startups": {
         "label": "Startups",
         "query": (
-            "startup funding round series A B C venture capital today "
-            "site:techcrunch.com OR site:crunchbase.com OR site:axios.com OR site:theinformation.com"
+            "startup funding venture capital series investment new round today"
         ),
     },
     "ai_forecast": {
         "label": "AI Forecast",
         "query": (
-            "AI capabilities milestones breakthroughs new model release research paper "
-            "frontier model agentic AI today site:arstechnica.com OR site:wired.com OR "
-            "site:techcrunch.com OR site:reuters.com"
+            "AI capabilities new model release frontier AI research breakthroughs agentic AI today"
         ),
     },
 }
@@ -105,14 +97,20 @@ The `signal` field is especially important here - give Shun a clear, falsifiable
     return common
 
 
-def user_prompt(category_key: str, user_note: str = "", monthly_summary: str = "") -> str:
+def user_prompt(category_key: str, user_note: str = "", monthly_summary: str = "", profile: str = "") -> str:
     cat = CATEGORIES[category_key]
     base = (
         f"Search for the most important {cat['label']} news from the last 24 hours. "
-        f"Focus on: {cat['query']}. "
+        f"Search query: {cat['query']}. "
         "Prioritize stories with global significance and forward-looking implications. "
+        "Draw from diverse sources: Western outlets (Reuters, FT, AP, BBC), Asian outlets (Nikkei, SCMP, NHK), "
+        "and Global South perspectives (Al Jazeera, The Hindu) where relevant. "
         "Every story must include a working source_url."
     )
+    if profile:
+        base += (
+            f"\n\nReader profile — use this to assign the 'personal' route:\n{profile}"
+        )
     if monthly_summary:
         # Extract only the "Brief Focus for Next Month" section to keep the prompt lean
         section = ""
