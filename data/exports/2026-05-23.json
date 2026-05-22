@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-23",
+    "category": "economy",
+    "headline": "EU ratifies fragile US trade deal under Trump's July 4 deadline — as Russia and China formally deepen their dollar-free economic axis",
+    "tldr": "The EU and US cleared a major legislative hurdle on their Turnberry trade deal, but the pact expires in 2029 and remains vulnerable to Trump's tariff threats. Simultaneously, Putin's Beijing summit produced 40+ cooperation agreements and record bilateral trade, cementing a structurally asymmetric China-Russia bloc. For Japan, the BOJ holds rates at 0.75% amid a hawkish three-way split — with a next hike likely by October — while the yen hovers near intervention territory at 159.",
+    "signal": "Watch three convergent pressure points over the next 30–90 days: (1) The July 4 US–EU tariff deadline — if Trump escalates to 25% auto tariffs as threatened, European markets and the euro will face immediate shock; (2) The BOJ's June meeting — with three hawks already dissenting and the yen near 160, a surprise hike or MoF intervention could sharply move JPY and unwind yen carry trades globally; (3) The China-Russia 5-Year Plan alignment — concrete infrastructure announcements (especially Power of Siberia 2 and the Zabaikalsk rail corridor) in Q3 will signal how permanent the dollar-free axis is becoming, with direct implications for global energy pricing and BRICS de-dollarization momentum.",
+    "bias_note": "Latin American, African, and South/Southeast Asian perspectives on the China-Russia axis and US trade policy are underrepresented today. India's reaction to the China-Russia deepening — particularly its implications for the Quad — would add important context for Japan-watchers. State media framing (CGTN, Global Times) on the Putin-Xi summit has been noted but should be read against independent analysis of the structural asymmetry.",
+    "created_at": "2026-05-22T21:57:47.313428+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "EU Ratifies Fragile US Trade Deal — But Distrust Is Structural",
+        "summary": "The EU Council and European Parliament struck a provisional deal to implement the Turnberry Agreement's tariff terms, with the EU scrapping tariffs on US industrial goods in exchange for a 15% US tariff cap on most European goods. However, the pact expires December 2029 and includes a suspension mechanism if the US fails to lift steel and aluminum tariffs above 15% by end-2026. A survey in the five largest EU countries found 77% believe the deal 'mostly favors the American economy' and 52% call it 'a humiliation' — with anti-American consumer boycotts now measurable across Europe.",
+        "source": "EU Council / Euronews / Foreign Affairs",
+        "source_region": "Western",
+        "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/20/eu-us-trade-council-and-parliament-strike-a-deal-to-implement-the-tariff-elements-of-the-joint-statement/",
+        "significance": "The deal stabilizes transatlantic trade short-term but its built-in fragility — tied to Trump's tariff behavior and a 2029 sunset — means EU-US economic relations remain structurally unstable for the next 3+ years.",
+        "trend_signal": "watch",
+        "route": "world",
+        "created_at": "2026-05-22T21:57:47.313428+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "Putin-Xi Beijing Summit: A Dollar-Free Axis Accelerates",
+        "summary": "Putin's 25th visit to China produced 40 cooperation agreements, a 47-page joint declaration on multipolar world order, and a formal push to align China's 15th Five-Year Plan with Russia's 2030 strategy. Bilateral trade grew 20% in the first four months of 2026, with over 99% now settled in rubles and yuan. The relationship is deeply asymmetric: Russia imports over 90% of sanctioned Western technology via Chinese suppliers, while China buys discounted Russian energy — giving Beijing leverage Putin cannot escape.",
+        "source": "Modern Diplomacy / MarketExpress / Business Today Malaysia",
+        "source_region": "Asia",
+        "source_url": "https://moderndiplomacy.eu/2026/05/22/how-trump-has-strengthened-the-china-russia-alliance-more-than-ever/",
+        "significance": "China is not 'joining Russia's camp' — it is absorbing Russia as a dependent junior partner in a yuan-centric economic bloc, with permanent infrastructure (pipelines, logistics, payment rails) being embedded right now that will outlast any political shift.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-22T21:57:47.313428+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "BOJ Trapped: Hawks Outnumbered, Yen Near Intervention Line",
+        "summary": "The Bank of Japan kept its policy rate at 0.75% at its April meeting in a 6-3 vote, with three dissenting members calling for an immediate hike to 1.0%. The BOJ raised its FY2026 core inflation forecast sharply to 2.8% (from 1.9%) on Iran-war energy shock pressures, while cutting its growth forecast to just 0.5%. The yen has weakened past 159 against the dollar — approaching the 160 'line in the sand' — and Japan's Ministry of Finance has already intervened at least once during Golden Week.",
+        "source": "CNBC / Trading Economics",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/04/28/bank-of-japan-keeps-policy-rate-steady-cpi-iran-war-gdp.html",
+        "significance": "Japan faces a rare stagflation trap: hiking rates to defend the yen risks crushing an already fragile 0.5% growth economy, while inaction accelerates import-cost inflation — the next BOJ meeting is a critical trigger point for JPY direction.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-22T21:57:47.313428+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "Europe's Trump Fatigue Is Becoming an Economic Realignment",
+        "summary": "Trump's aggressive trade posture is fracturing transatlantic ties at both the business and consumer level. There is currently no EU country where a majority of citizens holds a positive view of the US, according to a YouGov poll. European companies are capitalizing on this shift — notably, the EU awarded a €180 million sovereign cloud contract to a European consortium rather than a US provider. Meanwhile, the US is now Europe's largest export market at over 20% of EU exports, making decoupling economically painful even as political will for it grows.",
+        "source": "Euronews / Foreign Affairs / Bloomberg",
+        "source_region": "Western",
+        "source_url": "https://www.euronews.com/my-europe/2026/05/20/how-trump-divided-us-companies-and-handed-europeans-an-opening",
+        "significance": "The EU's strategic push toward 'open strategic autonomy' — in cloud, defense, and trade — is accelerating faster than markets are pricing; this creates medium-term headwinds for US tech and financial firms operating in Europe.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-05-22T21:57:47.313428+00:00"
+      }
+    ]
+  }
+]
