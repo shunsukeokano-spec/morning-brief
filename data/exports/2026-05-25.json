@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-25",
+    "category": "tech",
+    "headline": "The transatlantic trade deal is patched but fragile — while China quietly deepens its semiconductor lifeline to Russia, reshaping the global tech order from below",
+    "tldr": "The EU Parliament narrowly approved a provisional US trade deal this week, but structural US-Europe tensions over AI policy, semiconductor export controls, and NATO commitments are accelerating Europe's push for strategic autonomy. Simultaneously, China continues to be Russia's primary chip supplier — with dual-use semiconductors flowing through grey-market routes despite Western sanctions — and Chinese analysts are openly framing this as a path to a 'fairer, multipolar technological order.' On the pure hardware front, NVIDIA's Rubin platform enters commercial deployment in H2 2026, deepening the AI compute gap between the US and the rest of the world.",
+    "signal": "Watch three converging forces over the next 30–90 days: (1) The EU Parliament's June plenary vote on the Turnberry trade deal — a failure would escalate US-Europe tensions into territory that directly affects semiconductor export-control coordination, putting Japan in an awkward position as Washington's key Asia ally; (2) Whether the US MATCH Act advances in Congress, which would force Japan and the Netherlands to choose between Washington's export control demands and their own industrial interests, with China's rare-earth retaliation toolkit ready to deploy; (3) The H2 2026 ramp of NVIDIA Rubin and competing custom ASICs — as inference costs fall 10x, watch for a surge in agentic AI product launches and a new round of hyperscaler CapEx guidance that will signal whether the AI infrastructure supercycle has further legs or is approaching its peak.",
+    "bias_note": "Asian-language sources (Nikkei Asia, NHK, SCMP) are underrepresented in today's brief due to search result availability. The Russia-China dynamic is partially covered through a Valdai Club piece (Russian state-adjacent framing — treat as 'State Media' perspective) and should be cross-referenced with independent reporting. Global South perspectives on the semiconductor bifurcation (e.g., India's positioning in the Russia-China-India 'troika') are underrepresented and worth tracking separately.",
+    "created_at": "2026-05-24T21:43:50.899424+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "EU Approves Fragile US Trade Deal — But Transatlantic Tensions Over Technology and NATO Are Structural, Not Temporary",
+        "summary": "The EU Parliament cleared a major hurdle this week by approving implementation of the Turnberry trade agreement, under which the EU scraps tariffs on US industrial goods while the US caps tariffs on European exports at 15%. But the deal remains deeply contested: MEPs fought hard for a suspension clause if the US fails to lift steel and aluminum tariffs by end-2026, and the full plenary vote in June is not guaranteed. Beneath the trade deal, policy analysts describe a 'fundamental divergence' across NATO, Ukraine, technology, and China policy — with the Trump administration increasingly treating European allies as 'export destinations' rather than partners.",
+        "source": "Euronews / CSIS / Atlantic Council",
+        "source_region": "Western",
+        "source_url": "https://www.euronews.com/my-europe/2026/05/20/eu-approves-trade-deal-with-the-us-despite-uncertainty-in-transatlantic-relations",
+        "significance": "Shun's question about European anti-Trump sentiment is confirmed and structural: the EU is simultaneously patching trade ties with Washington while quietly building alternative alliances (Mercosur, India FTA) and accelerating defense independence — a lasting realignment, not a temporary chill.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-05-24T21:43:50.899424+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "China's Semiconductor Flows to Russia Deepen — Dual-Use Chips, Drone Components, and the Architecture of a Parallel Tech Order",
+        "summary": "China and Russia's technological partnership has solidified through 2026, with dual-use exports including semiconductors and drone components expanding rapidly through grey-market routes via Turkey, Kazakhstan, and the UAE. Chinese suppliers have delivered consumer semiconductors, power-management ICs, and 5G infrastructure components that sustain Russia's military production — while Beijing maintains plausible deniability through 'civilian' labeling. Chinese analysts affiliated with Russia's Valdai Club are now openly framing the cooperation as a project to build 'a fairer, more multipolar technological order' and reduce global dependence on Western platforms.",
+        "source": "GIS Reports Online / Valdai Club (State Media) / Stanford FSI",
+        "source_region": "Western",
+        "source_url": "https://www.gisreportsonline.com/r/china-russia-technology/",
+        "significance": "This directly answers Shun's question about China-Russia alignment: the relationship is not just Russia seeking China's help — Beijing is actively architecting a counter-Western technology bloc, with semiconductors as the binding strategic asset, and it has geopolitical implications for Japan as a front-line US tech-control partner.",
+        "trend_signal": "watch",
+        "route": "world",
+        "created_at": "2026-05-24T21:43:50.899424+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "US AI Chip Export Controls Are Fracturing Allied Coordination — Japan, Netherlands, and Europe Are Caught in the Middle",
+        "summary": "A newly introduced US bill (the MATCH Act) would extend semiconductor export restrictions to allied partners including Dutch firm ASML and Japanese companies Nikon and Canon, with the goal of closing gaps that allow China to acquire advanced chipmaking tools through non-US suppliers. A Chatham House analysis warns that 'Washington's policy changes on chip exports have a ripple effect on its allies' industrial and AI development planning' — especially for Japan, the Netherlands, and Taiwan, who are deeply embedded in the supply chain. Meanwhile, memory prices have surged ~90% in Q1 2026, and data centers are forecast to account for 70% of all memory chip demand this year.",
+        "source": "CSIS / Chatham House",
+        "source_region": "Western",
+        "source_url": "https://www.csis.org/analysis/new-momentum-old-problems-transatlantic-export-control-considerations",
+        "significance": "Japan's semiconductor firms and METI face direct policy pressure from Washington to align export controls more tightly — with the risk that China retaliates using its critical minerals leverage, hitting Japanese manufacturers in the crossfire.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-24T21:43:50.899424+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "NVIDIA Vera Rubin Enters Commercial Deployment — A 10x Inference Cost Reduction That Resets the AI Compute Baseline",
+        "summary": "NVIDIA's Rubin platform — its first six-chip, extreme-codesigned AI architecture — is now in full production and entering commercial availability in H2 2026, with AWS, Google Cloud, Microsoft, and OCI among the first cloud providers to deploy it. The platform claims a 10x reduction in inference token cost and a 4x reduction in GPUs needed to train MoE models compared to Blackwell, while an extended variant (Rubin CPX) packs 8 exaflops of AI performance and 100TB of fast memory in a single rack. SoftBank Japan is the first customer deploying SambaNova's rival SN50 chip, signaling that Japan is actively participating in the next-gen AI infrastructure buildout.",
+        "source": "NVIDIA Newsroom / ServeTheHome",
+        "source_region": "Western",
+        "source_url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+        "significance": "A 10x drop in AI inference cost in H2 2026 means agentic AI applications that were cost-prohibitive six months ago become economically viable — this is the single most important forward-looking signal for what AI can do 'this month vs. last month' that Shun tracks.",
+        "trend_signal": "bull",
+        "route": "personal",
+        "created_at": "2026-05-24T21:43:50.899424+00:00"
+      }
+    ]
+  }
+]
