@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-26",
+    "category": "economy",
+    "headline": "Europe 'Quiet Quits' the US While China Locks In Russia — Two Tectonic Shifts Reshaping the Global Order",
+    "tldr": "Europe is ratifying a fragile trade deal with the US under duress while quietly decoupling from American tech and defence contracts. Meanwhile, Beijing hosted Putin days after Trump, signing 40+ cooperation agreements as China-Russia trade surges past $200B — though cracks in that partnership are also emerging. Japan's yen hovers near intervention thresholds as the BOJ faces a stagflation bind.",
+    "signal": "Watch three convergent pressure points over the next 30–90 days: (1) Whether the EU's full Parliament vote in June ratifies the Turnberry Agreement or fractures it — failure would trigger a structural escalation in US-EU trade tensions with Japan caught in the crossfire; (2) Whether Gazprom and China's NDRC announce progress on Power of Siberia-2 before end-2026 — a go-ahead would permanently lock in Russian energy dependence on China and eliminate European leverage over Moscow; (3) Whether the BOJ raises rates at its June meeting — a hike would signal the end of Japan's ultra-loose era, potentially triggering a global carry-trade unwind of historic proportions.",
+    "bias_note": "Global South perspectives (Latin America, Africa, Southeast Asia) are underrepresented today. The Russia-China story is covered primarily through Western and Russian independent media. ASEAN reactions to the China-Russia axis — particularly from Japan's regional partners — would add important balance.",
+    "created_at": "2026-05-25T22:02:05.852725+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "Europe 'Quiet Quits' the Transatlantic Alliance as Anti-US Sentiment Hardens",
+        "summary": "A landmark EU-US trade deal (the 'Turnberry Agreement') has cleared a key parliamentary hurdle, but the relationship it represents is under profound strain. With no country in Europe registering majority-positive attitudes toward the US, European institutions are quietly redirecting long-term contracts — cloud, defence systems, energy — toward non-American providers. Foreign Policy reports Europe is executing a slow strategic withdrawal from US dependency while keeping Trump superficially satisfied.",
+        "source": "Foreign Policy / Euronews / Al Jazeera",
+        "source_region": "Western",
+        "source_url": "https://foreignpolicy.com/2026/05/25/europe-trump-nato-leadership/",
+        "significance": "This is not a temporary diplomatic spat — it is structural decoupling that will reshape NATO burden-sharing, technology supply chains, and the dollar's reserve currency role over the next decade.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-05-25T22:02:05.852725+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "Xi Hosts Putin Days After Trump: China Extracts Gains From Both, Commits to Neither",
+        "summary": "Putin's May 20 Beijing summit with Xi produced 40+ cooperation agreements and a joint declaration of strategic independence. China-Russia trade hit $85.2B in just the first four months of 2026, up ~20% year-on-year, with Russia's gold exports to China quadrupling as sanctions complicate yuan-rouble settlement. However, the Moscow Times flags that the partnership may be approaching structural limits — trade fell 7% in 2025, the Power of Siberia-2 pipeline remains stalled, and Russia has little beyond energy to export.",
+        "source": "Modern Diplomacy / The Moscow Times / Global Times (State Media)",
+        "source_region": "Asia",
+        "source_url": "https://www.themoscowtimes.com/2026/05/22/russia-and-chinas-no-limits-trade-partnership-is-losing-steam-a91794",
+        "significance": "Beijing's deliberate sequencing — receiving Trump then Putin in the same week — signals China as the indispensable swing power of the 2020s, extracting concessions from both blocs without formal alignment with either.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-25T22:02:05.852725+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "Japan's Yen Under Siege: BOJ Caught Between Stagflation and a 300bp Rate Gap",
+        "summary": "The Bank of Japan held rates at 0.75% in April amid a 6-3 vote, but raised its core inflation forecast sharply to 2.8% while cutting growth to just 0.5% — a near-stagflationary profile. With the Fed funds rate at 3.50–3.75%, a 300bp carry-trade gap is pushing the yen toward the 160 line that triggered MoF intervention in late April. BOJ Governor Ueda's hawkish pivot is now supported by the MoF, but analysts warn that rate hikes alone risk tipping Japan's fragile economy into recession.",
+        "source": "CNBC / Japan Times / Trading Economics",
+        "source_region": "Asia",
+        "source_url": "https://www.japantimes.co.jp/business/2026/05/09/economy/boj-washington-yen-battle/",
+        "significance": "A forced BOJ rate hike — or continued yen weakness past ¥162 — would directly hit Japanese corporate earnings, household incomes, and import-driven inflation, with cascading effects across Asian currency markets.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-25T22:02:05.852725+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "US Fiscal Credibility in Question: Moody's Downgrade Meets a New $3.4T Tax Cut Bill",
+        "summary": "Moody's downgraded the US to Aa1 on May 16 — making it the last of the three major agencies to strip America's AAA rating — citing persistent deficits projected to reach ~9% of GDP and interest costs consuming 30% of federal revenue by 2035. The timing is combustible: Congress is simultaneously advancing a tax package the Yale Budget Lab estimates would add $3.4 trillion to debt through 2035. Bond markets initially spiked the 10-year yield to 4.56% before retreating, but foreign holders are already reassessing US debt exposure.",
+        "source": "PGPF / RSM / Axios",
+        "source_region": "Western",
+        "source_url": "https://www.pgpf.org/article/moodys-downgraded-its-us-credit-rating-and-warns-that-recent-policy-decisions-will-worsen-fiscal-outlook/",
+        "significance": "If foreign investors accelerate US Treasury exits — already seen amid trade-war jitters — upward pressure on yields would tighten global financial conditions, hit Japanese JGB yields (already at 30-year highs), and weaken the dollar's reserve currency foundation.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-05-25T22:02:05.852725+00:00"
+      }
+    ]
+  }
+]
