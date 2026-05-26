@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-27",
+    "category": "tech",
+    "headline": "AI memory crunch deepens as Europe hardens on China tech — and Nvidia's H200 China dream stalls",
+    "tldr": "The global DRAM/HBM shortage is now the worst in 15 years, with AI data centers consuming 70% of memory output and prices up 58–75% this quarter. Meanwhile, the EU is moving to legally ban Huawei and ZTE from all critical infrastructure, triggering Chinese retaliation threats — a flashpoint that directly answers Shun's question about whether Europe is drawing closer to, or further from, China.",
+    "signal": "Watch three converging pressure points over the next 30–90 days: (1) Whether the EU Cybersecurity Act moves from recommendation to binding vote in the European Parliament — Germany's stance on Huawei's ~60% share of its 5G estate is the swing variable; (2) Whether Nvidia's H200 China impasse triggers a structural pivot by Chinese hyperscalers toward Huawei's Atlas 350 accelerator, which would mark a durable loss of market share for US AI hardware; (3) Whether the global DRAM/HBM shortage cascades into smartphone market contraction — IDC's moderate scenario forecasts a 2.9% decline in 2026 global smartphone shipments, with ASPs rising 3–5%, which will directly pressure Japanese consumer electronics OEMs and Korean memory suppliers with Japan operations (SK Hynix Icheon, Micron Hiroshima).",
+    "bias_note": "Asian-language sources (Nikkei Asia, NHK World, SCMP) are underrepresented today due to search result availability in English. The Global South perspective — particularly how India, Southeast Asia, and Africa are navigating the EU–China tech split and memory price inflation on affordable devices — is absent and worth tracking. Chinese state media framing of the Huawei ban and H200 stall is not directly cited.",
+    "created_at": "2026-05-26T22:15:01.093993+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "AI Memory Crunch Hits 15-Year Worst: DRAM Up 63%, Shortage to Outlast 2026",
+        "summary": "Samsung, SK Hynix, and Micron have systematically reallocated fab capacity toward high-bandwidth memory (HBM) for AI accelerators, leaving consumer DRAM and NAND in critically short supply. In Q2 2026, DRAM contract prices rose 58–63% and NAND surged 70–75% quarter-over-quarter — the largest increases in a decade. Micron told JPMorgan this week that tightness will persist well beyond 2026, as HBM4 production ramps twice as fast as HBM3 and new fab capacity won't come online until 2027–28.",
+        "source": "IEEE Spectrum / Fortune / WCCFTech",
+        "source_region": "Western",
+        "source_url": "https://wccftech.com/micron-warns-memory-crunch-will-outlast-2026-as-ai-demand-outpaces-what-hbm-dram-and-nand-can-supply/",
+        "significance": "This is not a cyclical blip — it is a structural reallocation of global silicon capacity toward AI, with cascading price effects on smartphones, PCs, and automotive that will persist through 2027–28, directly impacting Japanese consumer electronics and semiconductor firms.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-05-26T22:15:01.093993+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "Nvidia H200 China Sales Stall: Beijing Opts for Domestic Chips Despite US Approval",
+        "summary": "The US Commerce Department approved roughly 10 Chinese firms — including Alibaba, Tencent, ByteDance, and Lenovo — to purchase Nvidia's H200 chips. But following the Trump–Xi summit in May, Trump revealed China 'chose not to' sanction the purchases, preferring to develop its own AI chips. Nvidia's $78B revenue guidance assumes zero H200 recovery from China, though analysts estimate a functioning framework would restore $3.5–4B in annual revenue.",
+        "source": "CNBC / Reuters / Tom's Hardware",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html",
+        "significance": "Beijing's deliberate rejection of approved US AI chips signals a strategic commitment to domestic semiconductor self-reliance over short-term capability gains — a major indicator that China's tech decoupling is driven by policy choice, not just US export controls.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-26T22:15:01.093993+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "EU Moves to Legally Ban Huawei & ZTE — China Threatens 'Decisive' Retaliation",
+        "summary": "On May 4, 2026, the European Commission formally recommended all 27 EU member states exclude Huawei and ZTE from telecom and critical infrastructure, backed by a new Cybersecurity Act that would mandate a 36-month phase-out with financial penalties for non-compliance. China filed a 30-page rebuttal calling the rules 'discriminatory,' warning it will 'act decisively' if the EU proceeds — with threatened countermeasures targeting German cars, French luxury goods, and Ericsson/Nokia's Chinese market access.",
+        "source": "The Next Web / Light Reading / Reuters",
+        "source_region": "Western",
+        "source_url": "https://thenextweb.com/news/eu-huawei-zte-connectivity-infrastructure-recommendation",
+        "significance": "This is the most concrete test yet of whether EU 'de-risking' from China has real teeth — Germany's political will and Italy/Spain's operator dependencies will determine whether the bloc can enforce binding tech sovereignty, or fractures under Chinese economic pressure.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-26T22:15:01.093993+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "Europe–China Sentiment: De-Risking at Brussels Level, Rapprochement at Capital Level — A Deepening Divide",
+        "summary": "Shun's question — is Europe drawing closer to China? — has a split answer. At the EU level, relations have deteriorated sharply: rare earth export controls, Huawei bans, EV tariffs, and WTO disputes reflect a hardening Brussels posture. But at the national level, UK PM Starmer secured a $4.5B deal reset in January, and German Chancellor Merz visited Beijing in February with 30 top executives, pointedly refusing to call China a 'systemic rival.' MERICS' 2026 forecast found 84% of European experts were pessimistic about the EU's ability to reduce China dependencies, while China's leverage over Europe is assessed as growing.",
+        "source": "Council on Foreign Relations / MERICS / Euronews",
+        "source_region": "Western",
+        "source_url": "https://www.cfr.org/articles/china-in-europe-february-2026",
+        "significance": "Europe is not moving uniformly toward or away from China — it is fracturing, with Brussels pushing de-risking while key capitals pursue bilateral engagement. This 'divide-and-rule' dynamic is China's preferred strategic outcome, and has direct implications for how Japan calibrates its own EU–China triangulation.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-26T22:15:01.093993+00:00"
+      }
+    ]
+  }
+]
