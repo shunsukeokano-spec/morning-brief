@@ -1,0 +1,130 @@
+[
+  {
+    "id": 2,
+    "date": "2026-05-29",
+    "category": "politics",
+    "headline": "Europe braces for trade war with China as Trump-Xi détente leaves Brussels exposed and Tokyo squeezed",
+    "tldr": "The EU's 27 commissioners meet today (May 29) to debate a new trade weapon against Chinese overcapacity, even as Europe's China sentiment hardens into a paradox: more high-level visits, yet a widening $113B trade deficit and rising Beijing retaliation. Meanwhile, Trump's Beijing summit produced modest deals and a Taiwan warning from Xi, leaving Japan — caught between US ambiguity and Chinese economic coercion — facing its most acute security dilemma in decades.",
+    "signal": "Watch three converging pressure points over the next 30–90 days: (1) The EU's May 29 commissioner debate may produce a draft overcapacity instrument by summer — if adopted, it will trigger Chinese retaliation that could spill into Japan's export markets in Southeast Asia; (2) Xi's framing of Taiwan as a red line at the Trump summit sets the stage for a highly charged APEC summit in China this November, where Japan is seeking a breakthrough Xi-Takaichi meeting Beijing is actively blocking — any incident in the Senkakus or Taiwan Strait before then could derail it entirely; (3) The Hormuz ceasefire's fragility and the UAE's OPEC exit mean energy prices remain a wildcard — if the strait reopens and UAE barrels flood the market, oil could drop sharply, easing pressure on Japan's import bill but destabilising Gulf producers whose stability Tokyo depends on.",
+    "bias_note": "Latin American and African perspectives on OPEC restructuring and trade war impacts on the Global South are underrepresented in today's brief. Russian state media perspective on the Trump-Xi summit and Ukraine-linked EU-China sanctions dynamic has been omitted — worth monitoring via TASS for Beijing-Moscow framing of the new 'strategic stability' label.",
+    "created_at": "2026-05-28T22:26:34.582949+00:00",
+    "stories": [
+      {
+        "id": 5,
+        "brief_id": 2,
+        "title": "EU Commissioners Meet Today to Debate New Trade Weapon Against China — As Deficit Hits Record High",
+        "summary": "The European Commission holds a critical internal debate today (May 29) on a new instrument to tackle Chinese overcapacity, as fresh customs data shows China's surplus with the EU-27 hit $113 billion in just the first four months of 2026 — up from $91 billion over the same period in 2025. The move comes as Beijing has simultaneously banned Chinese companies from engaging with the Commission over foreign subsidy investigations, escalating the stand-off. The EU's outgoing top trade official has warned that the frozen EU-China investment deal is 'an agreement from another time and for another China,' signalling no diplomatic off-ramp is near.",
+        "source": "Euronews / South China Morning Post",
+        "source_region": "Western",
+        "source_url": "https://www.euronews.com/my-europe/2026/05/18/as-trade-war-with-china-looms-how-can-the-eu-defend-itself",
+        "significance": "Today's commissioner debate could mark a structural shift in EU-China economic relations — the first concrete move toward a systemic trade defence tool that would reshape supply chains across Europe and Asia simultaneously.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-28T22:26:34.582949+00:00"
+      },
+      {
+        "id": 6,
+        "brief_id": 2,
+        "title": "Europe's China Pivot: Closer Engagement or Paralysis? The Sentiment Shift Explained",
+        "summary": "European leaders — from Macron to Merz, Starmer to Sanchez — flooded Beijing with high-level visits in early 2026, driven by Washington's unreliability under Trump rather than genuine trust in Beijing. Yet analysts describe Europe as 'paralysed': it faces a record trade deficit exceeding €400 billion, Chinese rare earth export controls targeting its supply chains, and Beijing's refusal to make any tangible concessions on trade rebalancing or Ukraine. The EU's tripartite framing of China as 'partner, competitor, and systemic rival' remains intact, but the balance is tipping sharply toward rivalry — with Germany's approach of 'balanced engagement' as the last brake on a more confrontational Brussels posture.",
+        "source": "East Asia Forum / The Diplomat / Euronews",
+        "source_region": "Western",
+        "source_url": "https://eastasiaforum.org/2026/04/29/europes-renewed-china-outreach-balances-competition-and-cooperation/",
+        "significance": "Directly addresses Shun's question: Europe is not genuinely approaching China — it is tactically engaging under US pressure while structurally drifting toward a harder line, creating instability in the world's largest bilateral trading relationship.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-28T22:26:34.582949+00:00"
+      },
+      {
+        "id": 7,
+        "brief_id": 2,
+        "title": "Trump-Xi Beijing Summit: 'Strategic Stability' Framing Hides Taiwan Fault Line — And Japan Is Most Exposed",
+        "summary": "Trump's May 14–15 state visit to Beijing produced modest deals — $17B/year in US agricultural purchases, 200 Boeing jets, and new 'Boards of Trade and Investment' — but the summit's most consequential moment was Xi placing Taiwan at the center of the relationship as a red line that 'if not managed properly' would put ties in jeopardy. For Japan, the implications are severe: Trump's America First doctrine has weakened Washington's deterrence credibility in Asia, and Beijing — sensing the shift — has already deployed economic coercion against Tokyo including seafood import bans and dual-use export controls. A Xi-Takaichi summit at APEC in November remains blocked, with China refusing contact.",
+        "source": "East Asia Forum / CNN / CBS News / Wikipedia (China-Japan relations)",
+        "source_region": "Asia",
+        "source_url": "https://eastasiaforum.org/2026/05/20/trump-xi-summit-spells-uneasy-news-for-japan/",
+        "significance": "The Trump-Xi managed détente is structurally bad for Japan: it de-couples US security commitment from alliance obligations, giving Beijing more latitude to escalate pressure on Tokyo over Taiwan and the Senkakus.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-28T22:26:34.582949+00:00"
+      },
+      {
+        "id": 8,
+        "brief_id": 2,
+        "title": "UAE Exits OPEC After 59 Years — Reshaping Gulf Energy Order Amid Iran War and Hormuz Crisis",
+        "summary": "The UAE formally left OPEC on May 1, 2026, ending nearly six decades of membership and removing the cartel's third-largest producer with 4.8 million bpd of capacity. The move — timed as the US-Israel war on Iran has closed the Strait of Hormuz and squeezed global supply — signals Abu Dhabi's strategic bet that peak oil demand is near and that it must monetise barrels before the energy transition strands its reserves. Al Jazeera reports the exit also reflects a deepening Saudi-Emirati rivalry, with the UAE not consulting Riyadh before the decision. Analysts warn the exit opens the door for other members (Kazakhstan, Nigeria, Venezuela) to defect, potentially gutting OPEC's pricing power.",
+        "source": "Al Jazeera",
+        "source_region": "Middle East",
+        "source_url": "https://www.aljazeera.com/news/2026/4/28/uae-leaves-opec-and-opec",
+        "significance": "A weakened OPEC and post-Hormuz energy market restructuring will directly affect Japan's energy import costs and LNG security — a critical vulnerability for the Takaichi government already managing inflation and a weak yen.",
+        "trend_signal": "watch",
+        "route": "world",
+        "created_at": "2026-05-28T22:26:34.582949+00:00"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "date": "2026-05-29",
+    "category": "tech",
+    "headline": "Micron hits $1 trillion as AI memory crunch deepens — while China locks in domestic chips and Europe inches toward Beijing",
+    "tldr": "Micron became only the second memory company in history to cross $1 trillion in market cap, with its entire 2026 HBM supply already sold out. Simultaneously, China formally certified nine homegrown AI chips for state procurement, accelerating its push to replace Western silicon. Meanwhile, Europe's China posture is shifting — not toward decoupling, but toward cautious economic re-engagement driven by Trump-era transatlantic uncertainty.",
+    "signal": "Watch three converging pressure points over the next 30–90 days: (1) Whether SMIC wafer capacity becomes the binding constraint on China's newly certified domestic AI chip rollout — if so, the bottleneck shifts from policy to physics; (2) Whether the US Congress moves to renew the CHIPS Act investment credit before the August recess, which will signal the durability of US industrial policy beyond the current AI boom; (3) Whether any EU member state — most likely Germany or France — announces a formal tech cooperation framework with China in AI or green energy, which would be the clearest signal yet that Europe's 'do no harm' posture is tilting toward active re-engagement rather than just managed coexistence.",
+    "bias_note": "Global South and Latin American perspectives are absent today. African semiconductor demand and India's chip ambitions (particularly HCL and Tata's fab projects) are underrepresented despite being increasingly relevant to supply chain diversification narratives. Russian perspectives on AI hardware sanctions and chip sourcing (e.g., Sberbank's reported interest in Chinese chips) were noted but not included as a primary story.",
+    "created_at": "2026-05-28T22:25:21.148813+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "Micron Joins the $1 Trillion Club as AI Memory Crunch Goes Structural",
+        "summary": "On May 26, Micron Technology surged 19% in a single session to briefly top $1 trillion in market cap — a nearly 10x increase from $108 billion just one year ago — after UBS nearly tripled its price target to $1,625, the highest on Wall Street. The catalyst is structural: Micron's entire 2026 high-bandwidth memory (HBM) supply is already sold out, with AI workloads creating a supply-demand imbalance that analysts say shows no sign of abating. Wall Street is now rotating the AI trade beyond Nvidia into the broader memory and components stack, with Intel, AMD, and Micron all more than doubling this year.",
+        "source": "Reuters / Rappler",
+        "source_region": "Western",
+        "source_url": "https://www.rappler.com/technology/micron-market-value-may-26-2026/",
+        "significance": "Micron's milestone signals that the AI infrastructure supercycle has spread well beyond GPUs — memory is now the critical bottleneck, reshaping the entire semiconductor supply chain and competitive dynamics between US and Asian chipmakers.",
+        "trend_signal": "bull",
+        "route": "world",
+        "created_at": "2026-05-28T22:25:21.148813+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "China Certifies Nine Domestic AI Chips for State Procurement — Formally Replacing Nvidia in Government Systems",
+        "summary": "China's official security bodies this week certified nine domestically designed AI processors — including Huawei's Ascend 310 and 910, Alibaba's T-Head chips, and five other vendors — under a brand-new 'AI training and inference chips' category in its Anke security framework, functioning as a de facto procurement catalog for government agencies and state-owned enterprises. Chinese domestic firms already claimed 41% of local AI server shipments in 2025, and Huawei alone is projecting $12 billion in AI processor revenue for 2026. The critical constraint now is wafer fab capacity: all certified vendors are competing for limited slots at SMIC, whose most advanced node remains roughly equivalent to 7nm.",
+        "source": "South China Morning Post / Tom's Hardware",
+        "source_region": "Asia",
+        "source_url": "https://www.scmp.com/tech/policy/article/3354993/china-adds-ai-chips-secure-technology-assessment-list-amid-us-curbs",
+        "significance": "This is a policy inflection point: Beijing has now formalized AI chip self-sufficiency at the procurement level, making the US–China semiconductor split increasingly irreversible and raising the competitive floor for domestic players like Huawei.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-28T22:25:21.148813+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "Europe's China Sentiment: From 'Systemic Rival' to Cautious Re-Engagement",
+        "summary": "Shunのノートへの直接回答: Europe's posture toward China has shifted significantly since 2023 — but it is not a clean rapprochement. Driven by Trump's tariff shocks and crumbling transatlantic ties, several European leaders including UK PM Starmer (January 2026) and German Chancellor Merz (February 2026) visited Beijing seeking economic re-engagement; Starmer secured $4.5B in deals, while Merz pointedly dropped the 'systemic rival' label. Yet the MERICS 2026 forecast shows 84% of European China experts remain pessimistic about Europe's ability to actually reduce dependencies on China, and China's rare earth export restrictions in late 2025 left a 'lasting mark' on policymakers. The operative EU posture heading into 2026 is 'do no harm' — engagement continues, but escalation is carefully avoided.",
+        "source": "Council on Foreign Relations / Euronews / MERICS",
+        "source_region": "Western",
+        "source_url": "https://www.cfr.org/articles/china-in-europe-february-2026",
+        "significance": "For Japan, this matters: if Europe accelerates economic re-engagement with China — especially in EVs, green tech, and AI — it weakens the coherence of any Western-aligned de-risking strategy and reduces pressure on Beijing across the board.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-28T22:25:21.148813+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "US CHIPS Act Investment Credit Set to Expire End of 2026 — Industry Warns of Supply Chain Setback",
+        "summary": "The Advanced Manufacturing Investment Credit (AMIC), a cornerstone of the CHIPS Act that has helped spark hundreds of billions in private US semiconductor investment, is set to expire at the end of 2026. The Semiconductor Industry Association, joined by 17 other business coalitions, has urgently written to Congress to extend it — warning that global chip sales hit a record $791.7 billion in 2025 and are projected to approach $1 trillion in 2026, but that momentum requires sustained policy support. This comes as Q1 2026 global semiconductor sales hit $298.5 billion, up 25% quarter-on-quarter.",
+        "source": "Semiconductor Industry Association",
+        "source_region": "Western",
+        "source_url": "https://www.semiconductors.org/news-events/latest-news/",
+        "significance": "If Congress fails to renew the AMIC, it risks stalling US fab investment at the exact moment the global AI memory and logic supply crunch is peaking — a direct vulnerability for Japan's semiconductor ecosystem partners and Quad technology alliance commitments.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-28T22:25:21.148813+00:00"
+      }
+    ]
+  }
+]
