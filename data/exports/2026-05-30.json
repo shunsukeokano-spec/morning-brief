@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-30",
+    "category": "tech",
+    "headline": "China locks homegrown AI chips into state procurement as NVIDIA's Rubin era dawns — Europe watches both with growing unease",
+    "tldr": "Beijing formally certified nine domestic AI processors for government-wide procurement this week, deepening its tech self-reliance drive just as NVIDIA prepares Rubin GPU shipments for H2 2026. Meanwhile, Europe is caught between a surging €360B trade deficit with China and a political drift toward cautious re-engagement as Trump-era pressures fracture transatlantic unity.",
+    "signal": "Watch two parallel clocks over the next 30–90 days: (1) NVIDIA Rubin's first cloud deployments in H2 2026 will trigger a new wave of HBM4 and optical interconnect orders — SMIC's >93% utilization and the 3x optical capacity gap signal that Japan's chip-related supply chain players (Shin-Etsu, Murata, Sumitomo Electric) are entering a sustained demand super-cycle. (2) The European Commission's China debate on May 29 and the expected summer enforcement of its new FDI screening framework will clarify whether Brussels can hold a unified line — or whether the Germany-led commercial rapprochement normalizes a two-track EU-China relationship that weakens the West's collective semiconductor export control posture, directly affecting the credibility of Quad-aligned tech alliances that include Japan.",
+    "bias_note": "Global South perspectives (Al Jazeera, The Hindu) are underrepresented today — no major India/Southeast Asia angle was surfaced on AI hardware or EU-China dynamics, though India's role as an alternative semiconductor manufacturing destination and ASEAN's exposure to Chinese chip overcapacity are relevant underreported threads. African perspectives on Chinese tech investment are also absent.",
+    "created_at": "2026-05-29T22:23:44.655141+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "China Certifies Nine Homegrown AI Chips for State Procurement — First-Ever 'AI Inference' Category Created",
+        "summary": "China's official security bodies certified nine domestically designed AI processors — including Huawei's Ascend 910, Alibaba's T-Head Zhenwu, and chips from Biren, Moore Threads, and others — for government and state-enterprise procurement, creating a brand-new 'AI training and inference chips' category under the Anke security framework. The certifications are valid three years and function as a de facto procurement catalogue for all Xinchuang-covered agencies. Chinese domestic firms already delivered 41% of local AI server shipments in 2025, with Huawei projecting $12B in AI processor revenue for 2026 alone.",
+        "source": "South China Morning Post / Tom's Hardware",
+        "source_region": "Asia",
+        "source_url": "https://www.tomshardware.com/tech-industry/semiconductors/china-certifies-nine-domestic-ai-chips-for-government-procurement",
+        "significance": "This is China converting industrial policy into guaranteed procurement demand — turning a defensive decoupling into an aggressive domestic capacity-building exercise that will reshape the global AI chip market by 2030.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-05-29T22:23:44.655141+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "NVIDIA's Rubin Platform Enters Full Production — AWS, Google, Microsoft Set for H2 2026 Deployment",
+        "summary": "NVIDIA confirmed its next-generation Rubin platform is in full production, with volume shipments targeting the second half of 2026. The platform delivers up to 10x reduction in inference token cost and 4x fewer GPUs needed to train MoE models versus Blackwell, and is framed as the foundation for the agentic AI era. AWS, Google Cloud, Microsoft Azure, and OCI will be among the first cloud providers to deploy Vera Rubin instances, with Microsoft committing rack-scale NVL72 systems to its next-generation Fairwater AI superfactories.",
+        "source": "NVIDIA Newsroom",
+        "source_region": "Western",
+        "source_url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+        "significance": "Rubin's acceleration to full production a full year ahead of analyst expectations resets the AI infrastructure roadmap and will intensify memory and optical interconnect shortages already running at 3x demand-to-capacity ratios.",
+        "trend_signal": "bull",
+        "route": "personal",
+        "created_at": "2026-05-29T22:23:44.655141+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "AI Data Center Supply Chain Hits Critical Bottleneck: Optical Interconnect Demand Now '3x Capacity'",
+        "summary": "Semtech CEO Hong Hou warned on the company's Q1 earnings call (reported May 28) that demand for key optical networking components — spanning 800G, 1.6T, LPO, and laser products — is now outpacing manufacturing capacity by approximately 3x, as hyperscalers race to build ever-larger AI clusters. Data-center revenue is expected to surge ~35% sequentially in Q2, driven by early 1.6T production shipments. Separately, the AI memory super-cycle has already nearly doubled server DRAM prices, with downstream effects hitting smartphones, gaming consoles, and consumer electronics globally.",
+        "source": "TheStreet / Fortune",
+        "source_region": "Western",
+        "source_url": "https://www.thestreet.com/investing/stocks/ai-hardware-ceo-sounds-alarm-on-major-demand-problem",
+        "significance": "The bottleneck has structurally shifted from GPUs to the components that connect and feed them — optical interconnects and HBM memory — meaning the next 6–12 months of AI infrastructure buildout will be gated by supply chains largely concentrated in Japan, South Korea, and Taiwan.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-29T22:23:44.655141+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "Europe's China Sentiment: Paralysis Between 'De-Risking' and Drift Toward Beijing",
+        "summary": "Europe entered 2026 in a 'do no harm' phase with China — cautious engagement replacing any real reset — after China's 2025 rare earth export restrictions left European factories cutting hours and delaying orders. Yet individual European leaders (UK PM Starmer, German Chancellor Merz, French President Macron) have all made high-level visits to Beijing seeking commercial deals, with Macron explicitly calling for more Chinese FDI in Europe. At the same time, the EU's €360B trade deficit with China hit a new record in 2025, the European Commission is debating deploying its Anti-Coercion 'trade bazooka,' and Brussels is proposing to phase out Huawei and ZTE from critical infrastructure. In May 2026, the EU and Japan also jointly met to reduce reliance on Chinese minerals, batteries, and clean technology.",
+        "source": "Euronews / East Asia Forum / Council on Foreign Relations",
+        "source_region": "Western",
+        "source_url": "https://www.euronews.com/my-europe/2026/05/07/can-europe-stand-up-to-china-on-trade",
+        "significance": "Europe is not converging on China — it is fracturing: Brussels hardening on trade instruments while individual capitals drift closer to Beijing for economic lifelines, a divide-and-rule dynamic that Beijing is actively exploiting and that directly affects Japan's own alliance calculus.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-29T22:23:44.655141+00:00"
+      }
+    ]
+  }
+]
