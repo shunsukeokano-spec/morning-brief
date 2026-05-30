@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-31",
+    "category": "tech",
+    "headline": "HBM hits $1 trillion: Micron crosses the threshold as AI memory becomes the defining choke point of 2026's infrastructure race",
+    "tldr": "Micron became only the third US chipmaker to hit a $1 trillion market cap this week, as AI-driven HBM shortages lock out even top customers. Simultaneously, China formally certified nine domestic AI chips for state procurement — the most concrete step yet in its drive to replace Nvidia inside government systems. Europe, squeezed between Washington's export controls and Beijing's market leverage, is drifting toward tactical engagement with China rather than the de-risking it formally preaches.",
+    "signal": "Watch three converging pressure points over the next 30–90 days: (1) Whether SMIC fab utilization constraints force Chinese AI chipmakers to ration certified-but-undeliverable chips, stalling Beijing's Xinchuang AI rollout despite the procurement win. (2) Whether Germany's economy minister trip to Beijing this week produces concrete commitments — if Berlin softens its position on Chinese EV tariffs in exchange for industrial access, the EU's united front on tech de-risking will effectively collapse, reshaping both the ASML export control coalition and Japan's calculus on its own China tech policy. (3) Whether Micron's HBM4 ramp (needed for Rubin) meets NVIDIA's H2 2026 delivery timelines — any further slip cascades directly into delayed sovereign AI data center deployments in Japan, the Gulf, and Southeast Asia, all of which are mid-procurement right now.",
+    "bias_note": "Global South perspectives (Al Jazeera, The Hindu) are underrepresented today; the EU-China story in particular lacks African and Southeast Asian angles on how their own semiconductor supply dependencies are shifting as the US-China-EU triangulation intensifies. South Korean perspectives on the HBM supply story (SK Hynix holds ~50% of the HBM market) are also absent.",
+    "created_at": "2026-05-30T21:48:14.558005+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "Micron Joins the $1 Trillion Club as HBM Becomes AI's Defining Bottleneck",
+        "summary": "Micron crossed $1 trillion in market cap on May 26 after a 19% single-day surge, driven by a UBS upgrade that tripled its price target to $1,625. The underlying story is structural: Micron's entire 2026 HBM production is already sold out under binding contracts, and its CEO confirms the company can only fulfill 50–65% of near-term customer demand. The HBM total addressable market is projected to grow from $35 billion in 2025 to $100 billion by 2028, making the shortage a multi-year supply chain crisis rather than a temporary blip.",
+        "source": "Multiple (Motley Fool / CryptoBriefing / Blockonomi)",
+        "source_region": "Western",
+        "source_url": "https://www.fool.com/investing/2026/05/29/1-trillion-club-ai-semiconductor-micron-stock/",
+        "significance": "HBM scarcity is now the primary rate-limiter for every AI data center build-out globally — including Japan's sovereign AI push — meaning whoever secures long-term HBM contracts in the next 90 days wins the next infrastructure cycle.",
+        "trend_signal": "bull",
+        "route": "world",
+        "created_at": "2026-05-30T21:48:14.558005+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "China Certifies Nine Domestic AI Chips for State Procurement — First Time AI Accelerators Enter the 'Secure and Reliable' List",
+        "summary": "China's two official technology security bodies certified nine domestically designed AI processors — including Huawei's Ascend 310/910 and Alibaba's T-Head Zhenwu — for government and state-enterprise procurement, creating a brand-new 'AI training and inference chips' category under the Anke framework. The move functions as a de facto procurement catalog that directs guaranteed state-sector demand toward indigenous chips, effectively turning policy into subsidized capacity-building. The constraint now is not demand but fab capacity: SMIC, the only viable domestic foundry, ran above 93% utilization in 2025 and its most advanced node remains equivalent to 7nm.",
+        "source": "South China Morning Post / Tom's Hardware / Digitimes",
+        "source_region": "Asia",
+        "source_url": "https://www.scmp.com/tech/policy/article/3354993/china-adds-ai-chips-secure-technology-assessment-list-amid-us-curbs",
+        "significance": "Morgan Stanley estimates China's AI chip market could reach $67 billion by 2030 with domestic supply covering 76% of demand — this certification is the institutional scaffolding that makes that forecast credible, and it narrows the window for Nvidia to recapture the Chinese market.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-05-30T21:48:14.558005+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "Europe Drifts Toward China Engagement — But the 'Do No Harm' Phase Is Masking a Deeper Fracture",
+        "summary": "Europe's sentiment toward China has shifted from cautious de-risking to tactical reengagement, largely as a reaction to Trump's tariff pressure. German Chancellor Merz visited Beijing in February without invoking the term 'systemic rival,' UK PM Starmer secured $4.5 billion in bilateral deals in January, and French President Macron openly called for more Chinese FDI into Europe. Yet the reset is shallow: China's rare earth export restrictions in late 2025 inflicted severe damage on European industry, the EU is now proposing to ban Huawei and ZTE from critical infrastructure, and a MERICS survey finds 84% of Europe-based China experts are pessimistic about the EU's ability to reduce its dependencies. The continent is functionally paralyzed — wanting China's market and capital while fearing its leverage.",
+        "source": "CFR / Euronews / MERICS / China Briefing",
+        "source_region": "Western",
+        "source_url": "https://www.euronews.com/my-europe/2026/02/03/eu-china-relations-enter-do-no-harm-phase-as-trumps-shadow-looms",
+        "significance": "For Japan, Europe's inability to coordinate a unified China technology policy is directly relevant: a fragmented EU makes it harder to build the multilateral semiconductor export control coalitions (ASML/Netherlands + US + Japan) that Tokyo relies on to constrain Chinese chip advancement.",
+        "trend_signal": "neutral",
+        "route": "personal",
+        "created_at": "2026-05-30T21:48:14.558005+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "NVIDIA Rubin Supply Constraints Signal That the Next AI Infrastructure Wave Will Be Delayed — and Costlier",
+        "summary": "NVIDIA's next-generation Rubin GPU platform, now in full production and due for H2 2026 delivery, faces a 25% production cut — KeyBanc projects actual output at 1.5 million units vs. the original 2 million target. TrendForce cites HBM4 validation failures, power management challenges, and cooling constraints as root causes, and has revised Rubin's share of 2026 NVIDIA shipments down from 29% to 22%. Blackwell Ultra will dominate shipments instead, and deployment cycles may stretch into 2027, creating a temporary demand deferral pocket before a likely surge once Rubin is widely available.",
+        "source": "Network World / TrendForce / NVIDIA Newsroom",
+        "source_region": "Western",
+        "source_url": "https://www.networkworld.com/article/4156508/nvidia-rubin-gpus-may-be-delayed-slowing-the-next-phase-of-ai-infrastructure.html",
+        "significance": "Rubin's delay compresses the competitive window for challengers — both US (AMD, custom ASICs) and Chinese (Huawei Ascend) — and extends Blackwell's dominance, but the HBM4 validation problem also signals that every next-gen AI platform is now bottlenecked by memory, not compute.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-05-30T21:48:14.558005+00:00"
+      }
+    ]
+  }
+]
