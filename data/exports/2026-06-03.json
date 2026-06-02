@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-06-03",
+    "category": "politics",
+    "headline": "Europe hardens on China as Wang Wentao heads to Brussels for crunch talks — while the Trump-Xi détente leaves allies sidelined",
+    "tldr": "The EU is shifting from cautious engagement toward a more assertive posture on China, with a European Council debate this month and China's commerce minister expected in Brussels on June 29-30. The Trump-Xi Beijing summit produced shallow deals on trade but exposed a fragile détente underpinned by China's rare-earth leverage, leaving Japan and Europe anxious about being excluded from the world's most consequential bilateral relationship. Meanwhile, the UAE's OPEC exit is fracturing Gulf energy solidarity and injecting new volatility into global oil markets.",
+    "signal": "The next 30-90 days are a hinge point for the EU-China relationship: watch the European Council's June vote on the overcapacity instrument, Wang Wentao's June 29-30 Brussels visit, and whether China retaliates with tariffs on European goods as it threatened. Simultaneously, monitor whether the Trump-Xi 'Board of Trade' framework produces any concrete rare-earth deal — if China withholds, the détente fractures and Taiwan risk rises sharply. For Japan, the US host-nation support renegotiation and the new National Security Strategy release (H2 2026) are the two most consequential domestic signals to track.",
+    "bias_note": "Latin America and Sub-Saharan Africa are underrepresented today. The EU-China story benefits from strong European and Chinese-state-media sourcing (via China Briefing/China US Focus) but lacks direct ASEAN perspectives on how Southeast Asia is reading the Trump-Xi détente and European overcapacity measures — both of which will redirect Chinese export flows into the region.",
+    "created_at": "2026-06-02T22:55:21.933625+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "Europe Is Done Being Patient: Brussels Prepares Assertive New China Trade Weapon",
+        "summary": "The European Commission is preparing a new overcapacity instrument and plans to seek a green light from EU leaders at the European Council meeting in mid-June, following a surge in the EU-China trade deficit to €360 billion in 2025. China has responded by threatening retaliation in toughly worded State Council decrees, even as Chinese FDI into Europe hit a seven-year high of €16.8 billion in 2025 — a paradox that captures the 'do no harm' phase of the relationship. China's Commerce Minister Wang Wentao is expected in Brussels for crunch talks with EU trade chief Maros Sefcovic on June 29-30.",
+        "source": "South China Morning Post / Noah Barkin (Substack) / China Briefing",
+        "source_region": "Asia",
+        "source_url": "https://www.scmp.com/news/china/diplomacy/article/3354481/chinas-commerce-chief-wang-wentao-expected-brussels-june-29-and-30-sources",
+        "significance": "The mid-June European Council debate and the Wang Wentao visit are the most consequential EU-China flashpoints of 2026 — the outcome will determine whether Brussels moves from rhetoric to action on de-risking, directly affecting global supply chains and Japan's export exposure.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-06-02T22:55:21.933625+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "Trump-Xi Beijing Summit: Shallow Détente, Deep Gaps — and Japan Watches Nervously",
+        "summary": "Trump's May 14-15 visit to Beijing produced announcements of Boeing jet sales and $17 billion in annual U.S. agricultural purchases, but the two sides released contradictory readouts: Washington claimed China would 'effectively eliminate' rare-earth export controls; Beijing's statement said no such thing. Analysts at CFR and Brookings describe the outcome as 'friction without competition' — enough to lower immediate tensions but leaving core structural issues intact. Regional allies, including Japan, are watching closely for any signal that the US may trade Taiwan security commitments for economic concessions.",
+        "source": "CNBC / Brookings / Al Jazeera",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/05/18/us-china-announce-deals-after-trump-xi-summit.html",
+        "significance": "For Japan, a US-China 'G2' dynamic — where Washington and Beijing set terms without consulting allies — is the single most alarming scenario, as it could hollow out the US-Japan alliance's deterrence value precisely as Tokyo is drafting a new National Security Strategy.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-06-02T22:55:21.933625+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "UAE Quits OPEC: Gulf Solidarity Fractures Amid Iran War and Saudi Rivalry",
+        "summary": "The UAE formally exited OPEC and OPEC+ on May 1, removing the cartel's third-largest producer with 4.8 million bpd of capacity — a decision driven by frustration with quota constraints, the Iran war's disruption of Hormuz shipping, and a deepening UAE-Saudi strategic rivalry. Analysts at Al Jazeera describe the move as 'purchasing American strategic goodwill with barrels' at a moment when Abu Dhabi urgently needs a US security guarantee. Crude prices spiked above $112 Brent on Iran-related risk premiums, with knock-on effects for Japan's energy import costs.",
+        "source": "Al Jazeera",
+        "source_region": "Middle East",
+        "source_url": "https://www.aljazeera.com/news/2026/4/28/uae-leaves-opec-and-opec",
+        "significance": "OPEC's loss of its third-largest member accelerates the cartel's fragmentation; combined with the Hormuz blockade, this represents a structural energy-price shock with direct implications for Japan's import bill and the Bank of Japan's inflation outlook.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-06-02T22:55:21.933625+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "Japan's 'Plan B' Problem: Renegotiating Alliance Terms While Trump Courts Xi",
+        "summary": "Japan's Takaichi administration is revising its National Security Strategy, National Defense Strategy, and Defense Buildup Plan in 2026 ahead of schedule, while simultaneously facing renegotiation of the US troop host-nation support agreement — with Washington expected to demand 'multifold increases' in Japan's contribution. Analysts at Nippon.com and Asia Society warn that Trump's transactional approach to alliances, combined with the Trump-Xi détente, is generating real momentum for a 'Plan B' in Tokyo that deepens ties with like-minded partners through minilateralism. Japan's defense budget is approaching 2% of GDP but the Pentagon is pressing Indo-Pacific allies toward 5%.",
+        "source": "Nippon.com / Asia Society / CSIS",
+        "source_region": "Asia",
+        "source_url": "https://www.nippon.com/en/in-depth/d01194/",
+        "significance": "The convergence of the US-Japan SMA renegotiation and the Trump-Xi summit in the same window is a rare stress test for Japan's strategic autonomy — the outcome will shape Asia's security architecture for the next decade.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-06-02T22:55:21.933625+00:00"
+      }
+    ]
+  }
+]
