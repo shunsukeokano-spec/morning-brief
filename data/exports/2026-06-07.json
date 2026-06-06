@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-06-07",
+    "category": "tech",
+    "headline": "Washington plugs its own AI chip export loophole — but admits hundreds of thousands of Blackwell chips may have already reached Chinese-linked firms via Malaysia and Singapore",
+    "tldr": "The week of June 1–7 was defined by three seismic technology shifts: the U.S. BIS scrambled to close a self-inflicted export control gap that may have let Chinese subsidiaries buy Nvidia Blackwell chips at scale; the global semiconductor market was officially forecast to nearly double to $1.51 trillion in 2026 — the largest upward revision in industry history; and Nvidia crashed the PC market with its RTX Spark superchip while BYD quietly revealed it has been building humanoid robots for four years.",
+    "signal": "Watch for three convergent pressure points over the next 30–90 days: (1) Whether BIS issues follow-on enforcement actions targeting APAC chip distributors — any Japan-based firm with Chinese-linked customers faces material compliance risk; (2) The fall 2026 RTX Spark device launches will reveal whether agentic AI at the device level accelerates or disrupts cloud inference spending — a key signal for TSMC and Japanese memory suppliers like Kioxia; (3) China's humanoid robot commercialization race will intensify through year-end, with BYD, XPeng and others converting EV supply-chain dominance into robotics scale — Japanese industrial robot incumbents should be watched closely for strategic response.",
+    "bias_note": "Latin America, Africa, South Asia (India/The Hindu), and Middle Eastern tech perspectives are underrepresented today. The Global South's perspective on the semiconductor supply chain — particularly how the WSTS forecast and U.S. export controls affect developing nations' AI access — is largely absent from coverage this week.",
+    "created_at": "2026-06-06T21:53:39.296770+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "U.S. Closes AI Chip Export Loophole — But Damage to Chip Controls May Already Be Done",
+        "summary": "On May 31, the U.S. Commerce Department's BIS issued a rare Sunday guidance notice confirming that export licenses are now required for advanced AI chips shipped to any entity whose ultimate parent is headquartered in China — regardless of where that entity is physically located. The loophole, which emerged after the Trump administration paused Biden-era AI diffusion rules in May 2025, may have allowed hundreds of thousands of Nvidia Blackwell chips to flow to Chinese-linked subsidiaries in Malaysia and Singapore for over a year. A secondary loophole at TSMC — allowing Chinese front companies to commission chip fabrication — remains unaddressed by the guidance.",
+        "source": "Al Jazeera / TechTimes / Seoul Economic Daily",
+        "source_region": "Middle East / Western / Asia",
+        "source_url": "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china",
+        "significance": "Directly affects Japan-based chip distributors and contract manufacturers in APAC who must now audit beneficial ownership of all Chinese-linked customers; Southeast Asia's data center boom and any Japanese firms operating there face compliance pressure immediately.",
+        "trend_signal": "bear",
+        "route": "personal",
+        "created_at": "2026-06-06T21:53:39.296770+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "Semiconductor Market Set to Nearly Double to $1.51 Trillion in 2026 — WSTS Issues Largest-Ever Upward Revision",
+        "summary": "The World Semiconductor Trade Statistics (WSTS) on June 2 dramatically revised its 2026 forecast from $975 billion to $1.51 trillion — an 89.9% year-on-year surge — driven overwhelmingly by a 250% explosion in memory chip demand fueled by AI infrastructure build-out. Japan's semiconductor revenue is projected to grow 27.6% to $57.1 billion, a significant tailwind for companies like Kioxia Holdings. The forecast also signals that supply constraints in advanced packaging (HBM, CoWoS) and TSMC's leading nodes remain the critical bottleneck, with manufacturing capacity already sold out through 2028.",
+        "source": "WSTS / Digitimes / TelecomLead",
+        "source_region": "Western / Asia",
+        "source_url": "https://www.digitimes.com/news/a20260605VL208/semiconductor-industry-wsts-growth-forecast-2026.html",
+        "significance": "The scale of this revision — from 26% to 90% growth in just six months — signals the AI infrastructure buildout is running far ahead of consensus; for Japan, this is a material economic tailwind but also a supply-chain risk if HBM and advanced packaging remain bottlenecked.",
+        "trend_signal": "bull",
+        "route": "personal",
+        "created_at": "2026-06-06T21:53:39.296770+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "Nvidia Crashes the PC Market With RTX Spark Superchip, Targeting Intel and AMD's 40-Year Duopoly",
+        "summary": "At Computex 2026 in Taipei, Nvidia CEO Jensen Huang unveiled the RTX Spark Superchip — a Windows-on-Arm platform combining a 20-core Grace CPU, Blackwell GPU with 6,144 CUDA cores, and 128GB of unified memory — co-developed with MediaTek and backed by Microsoft. The chip targets the $200B PC CPU market, with OEM partners including Dell, HP, Lenovo, Asus, and Microsoft Surface shipping systems this fall. Intel shares fell ~4.7% on the news while Nvidia gained 6%; Nvidia also laid out a three-generation roadmap through Vera Rubin and Rosa Feynman, signaling a permanent entry into personal computing.",
+        "source": "CNBC / TechCrunch / Tom's Hardware",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+        "significance": "Nvidia's move from data-center component supplier to full-stack PC architecture owner represents a structural shift in how agentic AI will be deployed — the fall 2026 device launch will be the first real-world test of whether on-device AI agents justify a premium PC market reset.",
+        "trend_signal": "bull",
+        "route": "world",
+        "created_at": "2026-06-06T21:53:39.296770+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "BYD Confirms Secret 4-Year Humanoid Robot Program 'Yao-Shun-Yu' — China's EV Giants Race Into Embodied AI",
+        "summary": "BYD Executive VP Li Ke confirmed the company has been quietly developing humanoid robots since 2022 under the codename 'Yao-Shun-Yu', operated by BYD's 15th Business Unit focused on electronic integration and intelligence. BYD plans to first deploy robots industrially in its own factories, then potentially sell through its vast global auto dealer network. Li Ke framed BYD's edge bluntly: Chinese robots 'lack a brain' while U.S. robots have 'strong brains but weak limbs' — and BYD aims to build robots excelling in both. XPeng, Li Auto, and Chery are simultaneously racing to commercialize humanoid robots, with Chinese firms holding a dominant supply-chain position controlling ~70% of humanoid robot components globally.",
+        "source": "TechNode / CnEVPost / 36Kr / eWeek",
+        "source_region": "Asia",
+        "source_url": "https://technode.com/2026/06/04/byd-is-developing-humanoid-robots-according-to-source/",
+        "significance": "BYD's entry — backed by battery, sensor, chip, and manufacturing scale — dramatically accelerates the timeline for mass-market humanoid robots; this has direct implications for Japan's labor shortage crisis and the competitive position of Japanese industrial robot makers like Fanuc and Yaskawa.",
+        "trend_signal": "watch",
+        "route": "world",
+        "created_at": "2026-06-06T21:53:39.296770+00:00"
+      }
+    ]
+  }
+]
