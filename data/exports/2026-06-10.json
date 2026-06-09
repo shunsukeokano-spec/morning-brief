@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "date": "2026-06-10",
+    "category": "tech",
+    "headline": "Taiwan eyes criminal ban on AI chip exports to all of China — just as the global chip rally shows its first cracks",
+    "tldr": "Taiwan is weighing sweeping new export controls that would criminalize AI chip smuggling to all Chinese customers, not just blacklisted firms like Huawei — a seismic geopolitical move reported by Bloomberg today. Meanwhile, a Broadcom earnings miss last week erased over $1.3 trillion in chip sector market cap in a single session, testing the AI investment thesis. And OpenAI filed a confidential S-1 on June 8, formally beginning its path to a potentially $850B+ IPO.",
+    "signal": "The next 30–90 days are a critical inflection point for AI hardware. Watch for: (1) Taiwan's formal legislative move on export controls — Beijing's response will define cross-strait tech tension for the rest of 2026; (2) Whether the Broadcom sell-off spreads into Q2 capex guidance cuts from hyperscalers like Google, Microsoft, and Meta — any signal of AI infrastructure spending deceleration would reprice the entire chip sector; (3) The public S-1 disclosures from OpenAI and Anthropic, expected ahead of potential September IPOs, which will force the first transparent look at frontier AI unit economics and either validate or puncture trillion-dollar valuations. For Japan specifically: TSMC's Arizona and Kumamoto fab ramp, Japan's own export control alignment with the US, and any Chinese retaliation to Taiwan's chip controls via rare earth or optical module export restrictions are all high-priority signals.",
+    "bias_note": "Global South and Southeast Asian perspectives (India, Malaysia, Vietnam — all key emerging nodes in the semiconductor supply chain diversification story) are underrepresented today. Al Jazeera and The Hindu did not surface relevant technology stories in this cycle. Latin American and African perspectives on AI infrastructure access are absent.",
+    "created_at": "2026-06-09T22:17:34.624015+00:00",
+    "stories": [
+      {
+        "id": 1,
+        "brief_id": 1,
+        "title": "Taiwan Weighs Criminal Ban on AI Chip Exports to All of China",
+        "summary": "Taiwan is considering far stricter export controls that would restrict AI chip sales to every customer in China — not only blacklisted firms like Huawei — and criminalize smuggling for the first time, according to Bloomberg (June 9). The measures are being discussed as part of ongoing US–Taiwan trade talks, with rules likely mirroring Washington's processing-power threshold approach. If enacted, it would be the boldest move yet by President Lai's administration, aligning Taiwan firmly with US containment strategy and potentially drawing sharp retaliation from Beijing.",
+        "source": "Bloomberg / Taipei Times",
+        "source_region": "Western",
+        "source_url": "https://www.taipeitimes.com/News/biz/archives/2026/06/10/2003858815",
+        "significance": "This directly reshapes the global AI chip supply chain, closes a major loophole enabling semiconductor smuggling, and escalates Taiwan's strategic alignment with the US — with major implications for Japan's own export control posture and cross-strait stability.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-06-09T22:17:34.624015+00:00"
+      },
+      {
+        "id": 2,
+        "brief_id": 1,
+        "title": "Broadcom Miss Wipes $1.3 Trillion from Global Chip Sector in One Day",
+        "summary": "On June 5, the Philadelphia Semiconductor Index cratered over 6% and the Nasdaq fell 4% after Broadcom's Q3 AI chip sales guidance of $16 billion fell short of the $17.2 billion analyst estimate — despite AI revenue growing 143% year-over-year. AMD dropped nearly 11%, Intel fell over 11%, and Nvidia briefly lost its $5 trillion valuation crown. Analysts are split on whether the miss signals genuine AI demand cooling or simply expectations that ran too far ahead of reality.",
+        "source": "CNBC",
+        "source_region": "Western",
+        "source_url": "https://www.cnbc.com/2026/06/04/broadcoms-outlook-sparked-a-selloff-for-chip-stocks-heres-why.html",
+        "significance": "The first major stress test of the AI chip investment thesis in 2026 — reveals extreme valuation sensitivity and raises the question of whether AI hardware spending is beginning to plateau, which would ripple across Japan's electronics and component exporters.",
+        "trend_signal": "bear",
+        "route": "world",
+        "created_at": "2026-06-09T22:17:34.624015+00:00"
+      },
+      {
+        "id": 3,
+        "brief_id": 1,
+        "title": "OpenAI Files Confidential S-1 — IPO Race Is Now a Three-Way Run with Anthropic and SpaceX",
+        "summary": "OpenAI announced on June 8 that it had confidentially filed an S-1 with the SEC, targeting a potential public listing as early as September 2026 at a valuation of $730B–$850B, with Goldman Sachs, Morgan Stanley, and JPMorgan as underwriters. The move follows Anthropic's own confidential S-1 filed June 1 at a $965B valuation, and SpaceX's ongoing IPO roadshow. OpenAI reported $20B+ in annual recurring revenue for 2025 but is projecting a $14 billion loss in 2026 and does not expect profitability until 2029.",
+        "source": "Fortune / OpenAI",
+        "source_region": "Western",
+        "source_url": "https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/",
+        "significance": "The simultaneous public-market debut of OpenAI, Anthropic, and SpaceX will be the definitive valuation test for the AI era — forcing the first-ever public disclosure of frontier AI unit economics and potentially repricing the entire sector.",
+        "trend_signal": "watch",
+        "route": "world",
+        "created_at": "2026-06-09T22:17:34.624015+00:00"
+      },
+      {
+        "id": 4,
+        "brief_id": 1,
+        "title": "China's Tech Supply Chain Quietly Dominates Global AI Infrastructure",
+        "summary": "Xinhua reported on June 7 that Chinese firms now hold seven of the world's top-10 optical module vendor spots, with over 60% global market share, while China exported 117 billion integrated circuits worth $103.5B in just the first four months of 2026. China produced 127.2 billion ICs in Q1 2026, up 24.3% year-on-year. Even as the US tightens export controls on advanced AI chips, China has locked in a dominant position in the photonics and lower-node chip layers essential to global AI data center buildout.",
+        "source": "Xinhua (State Media)",
+        "source_region": "State Media",
+        "source_url": "https://english.news.cn/20260607/1e53b8ffb4274faa9415fe73d2cf4682/c.html",
+        "significance": "Highlights the paradox at the heart of US chip containment: while advanced logic chips are being restricted, China's grip on the optical and legacy-node supply chain means any global AI infrastructure buildout still flows through Chinese suppliers — a strategic vulnerability for Japan and the West.",
+        "trend_signal": "watch",
+        "route": "personal",
+        "created_at": "2026-06-09T22:17:34.624015+00:00"
+      }
+    ]
+  }
+]
